@@ -1,0 +1,1851 @@
+Picked up JAVA_TOOL_OPTIONS: -Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< io.github.bastide:pharmacie-spring-jpa >---------------
+[INFO] Building Pharmacie - Spring JPA 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- dependency:3.7.1:resolve (download-javadocs) @ pharmacie-spring-jpa ---
+[INFO] Can't extract module name from byte-buddy-1.17.6-javadoc.jar: byte.buddy: Invalid module name: 'byte' is not a Java identifier
+[INFO] Can't extract module name from byte-buddy-agent-1.17.6-javadoc.jar: byte.buddy.agent: Invalid module name: 'byte' is not a Java identifier
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.springframework.boot:spring-boot-starter-actuator:jar:javadoc:3.5.3 -- module spring.boot.starter.actuator [auto]
+[INFO]    org.springframework.boot:spring-boot-starter:jar:javadoc:3.5.3 -- module spring.boot.starter [auto]
+[INFO]    org.springframework.boot:spring-boot-starter-logging:jar:javadoc:3.5.3 -- module spring.boot.starter.logging [auto]
+[INFO]    ch.qos.logback:logback-classic:jar:javadoc:1.5.18 -- module logback.classic (auto)
+[INFO]    ch.qos.logback:logback-core:jar:javadoc:1.5.18 -- module logback.core (auto)
+[INFO]    org.slf4j:jul-to-slf4j:jar:javadoc:2.0.17 -- module jul.to.slf4j (auto)
+[INFO]    jakarta.annotation:jakarta.annotation-api:jar:javadoc:2.1.1 -- module jakarta.annotation.api (auto)
+[INFO]    org.yaml:snakeyaml:jar:javadoc:2.4 -- module snakeyaml (auto)
+[INFO]    org.springframework.boot:spring-boot-actuator-autoconfigure:jar:javadoc:3.5.3 -- module spring.boot.actuator.autoconfigure [auto]
+[INFO]    org.springframework.boot:spring-boot-actuator:jar:javadoc:3.5.3 -- module spring.boot.actuator [auto]
+[INFO]    com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:javadoc:2.19.1 -- module jackson.datatype.jsr310 (auto)
+[INFO]    io.micrometer:micrometer-observation:jar:javadoc:1.15.1 -- module micrometer.observation (auto)
+[INFO]    io.micrometer:micrometer-commons:jar:javadoc:1.15.1 -- module micrometer.commons (auto)
+[INFO]    io.micrometer:micrometer-jakarta9:jar:javadoc:1.15.1 -- module micrometer.jakarta9 (auto)
+[INFO]    io.micrometer:micrometer-core:jar:javadoc:1.15.1 -- module micrometer.core (auto)
+[INFO]    org.hdrhistogram:HdrHistogram:jar:javadoc:2.2.2 -- module HdrHistogram (auto)
+[INFO]    org.latencyutils:LatencyUtils:jar:javadoc:2.0.3 -- module LatencyUtils (auto)
+[INFO]    org.springframework.boot:spring-boot-starter-data-jpa:jar:javadoc:3.5.3 -- module spring.boot.starter.data.jpa [auto]
+[INFO]    org.springframework.boot:spring-boot-starter-jdbc:jar:javadoc:3.5.3 -- module spring.boot.starter.jdbc [auto]
+[INFO]    com.zaxxer:HikariCP:jar:javadoc:6.3.0 -- module HikariCP (auto)
+[INFO]    org.springframework:spring-jdbc:jar:javadoc:6.2.8 -- module spring.jdbc (auto)
+[INFO]    org.hibernate.orm:hibernate-core:jar:javadoc:6.6.18.Final -- module hibernate.core (auto)
+[INFO]    jakarta.persistence:jakarta.persistence-api:jar:javadoc:3.1.0 -- module jakarta.persistence.api (auto)
+[INFO]    org.jboss.logging:jboss-logging:jar:javadoc:3.6.1.Final -- module jboss.logging (auto)
+[INFO]    org.hibernate.common:hibernate-commons-annotations:jar:javadoc:7.0.3.Final -- module hibernate.commons.annotations (auto)
+[INFO]    io.smallrye:jandex:jar:javadoc:3.2.0 -- module jandex (auto)
+[INFO]    com.fasterxml:classmate:jar:javadoc:1.7.0 -- module classmate (auto)
+[INFO]    net.bytebuddy:byte-buddy:jar:javadoc:1.17.6
+[INFO]    jakarta.inject:jakarta.inject-api:jar:javadoc:2.0.1 -- module jakarta.inject.api (auto)
+[INFO]    org.antlr:antlr4-runtime:jar:javadoc:4.13.0 -- module antlr4.runtime (auto)
+[INFO]    org.springframework.data:spring-data-jpa:jar:javadoc:3.5.1 -- module spring.data.jpa (auto)
+[INFO]    org.springframework.data:spring-data-commons:jar:javadoc:3.5.1 -- module spring.data.commons (auto)
+[INFO]    org.springframework:spring-orm:jar:javadoc:6.2.8 -- module spring.orm (auto)
+[INFO]    org.springframework:spring-context:jar:javadoc:6.2.8 -- module spring.context (auto)
+[INFO]    org.springframework:spring-aop:jar:javadoc:6.2.8 -- module spring.aop (auto)
+[INFO]    org.springframework:spring-tx:jar:javadoc:6.2.8 -- module spring.tx (auto)
+[INFO]    org.springframework:spring-beans:jar:javadoc:6.2.8 -- module spring.beans (auto)
+[INFO]    org.slf4j:slf4j-api:jar:javadoc:2.0.17 -- module slf4j.api (auto)
+[INFO]    org.springframework:spring-aspects:jar:javadoc:6.2.8 -- module spring.aspects (auto)
+[INFO]    org.aspectj:aspectjweaver:jar:javadoc:1.9.24 -- module aspectjweaver (auto)
+[INFO]    org.springframework.boot:spring-boot-starter-web:jar:javadoc:3.5.3 -- module spring.boot.starter.web [auto]
+[INFO]    org.springframework.boot:spring-boot-starter-json:jar:javadoc:3.5.3 -- module spring.boot.starter.json [auto]
+[INFO]    com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:javadoc:2.19.1 -- module jackson.datatype.jdk8 (auto)
+[INFO]    com.fasterxml.jackson.module:jackson-module-parameter-names:jar:javadoc:2.19.1 -- module jackson.module.parameter.names (auto)
+[INFO]    org.springframework.boot:spring-boot-starter-tomcat:jar:javadoc:3.5.3 -- module spring.boot.starter.tomcat [auto]
+[INFO]    org.springframework:spring-web:jar:javadoc:6.2.8 -- module spring.web (auto)
+[INFO]    org.springframework:spring-webmvc:jar:javadoc:6.2.8 -- module spring.webmvc (auto)
+[INFO]    org.springframework:spring-expression:jar:javadoc:6.2.8 -- module spring.expression (auto)
+[INFO]    org.springframework.boot:spring-boot-starter-thymeleaf:jar:javadoc:3.5.3 -- module spring.boot.starter.thymeleaf [auto]
+[INFO]    org.thymeleaf:thymeleaf-spring6:jar:javadoc:3.1.3.RELEASE -- module thymeleaf.spring6 (auto)
+[INFO]    org.thymeleaf:thymeleaf:jar:javadoc:3.1.3.RELEASE -- module thymeleaf (auto)
+[INFO]    org.attoparser:attoparser:jar:javadoc:2.0.7.RELEASE -- module attoparser (auto)
+[INFO]    org.unbescape:unbescape:jar:javadoc:1.1.6.RELEASE -- module unbescape (auto)
+[INFO]    org.springframework.boot:spring-boot-starter-data-rest:jar:javadoc:3.5.3 -- module spring.boot.starter.data.rest [auto]
+[INFO]    org.springframework.data:spring-data-rest-webmvc:jar:javadoc:4.5.1 -- module spring.data.rest.webmvc (auto)
+[INFO]    org.springframework.data:spring-data-rest-core:jar:javadoc:4.5.1 -- module spring.data.rest.core (auto)
+[INFO]    org.springframework.hateoas:spring-hateoas:jar:javadoc:2.5.1 -- module spring.hateoas (auto)
+[INFO]    org.springframework.plugin:spring-plugin-core:jar:javadoc:3.0.0 -- module spring.plugin.core (auto)
+[INFO]    org.atteo:evo-inflector:jar:javadoc:1.3 -- module evo.inflector (auto)
+[INFO]    org.springdoc:springdoc-openapi-starter-webmvc-ui:jar:javadoc:2.8.14 -- module springdoc.openapi.starter.webmvc.ui (auto)
+[INFO]    org.springdoc:springdoc-openapi-starter-webmvc-api:jar:javadoc:2.8.14 -- module springdoc.openapi.starter.webmvc.api (auto)
+[INFO]    org.springdoc:springdoc-openapi-starter-common:jar:javadoc:2.8.14 -- module springdoc.openapi.starter.common (auto)
+[INFO]    io.swagger.core.v3:swagger-core-jakarta:jar:javadoc:2.2.38 -- module swagger.core.jakarta (auto)
+[INFO]    org.apache.commons:commons-lang3:jar:javadoc:3.17.0 -- module commons.lang3 (auto)
+[INFO]    io.swagger.core.v3:swagger-annotations-jakarta:jar:javadoc:2.2.38 -- module swagger.annotations.jakarta (auto)
+[INFO]    io.swagger.core.v3:swagger-models-jakarta:jar:javadoc:2.2.38 -- module swagger.models.jakarta (auto)
+[INFO]    com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:javadoc:2.19.1 -- module jackson.dataformat.yaml (auto)
+[INFO]    org.webjars:webjars-locator-lite:jar:javadoc:1.1.0 -- module webjars.locator.lite (auto)
+[INFO]    org.springframework.boot:spring-boot-devtools:jar:javadoc:3.5.3 -- module spring.boot.devtools [auto]
+[INFO]    org.springframework.boot:spring-boot:jar:javadoc:3.5.3 -- module spring.boot [auto]
+[INFO]    org.springframework.boot:spring-boot-autoconfigure:jar:javadoc:3.5.3 -- module spring.boot.autoconfigure [auto]
+[INFO]    org.springframework.boot:spring-boot-starter-validation:jar:javadoc:3.5.3 -- module spring.boot.starter.validation [auto]
+[INFO]    jakarta.validation:jakarta.validation-api:jar:javadoc:3.0.2 -- module jakarta.validation.api (auto)
+[INFO]    com.h2database:h2:jar:javadoc:2.2.220 -- module h2 (auto)
+[INFO]    org.postgresql:postgresql:jar:javadoc:42.7.7 -- module org.postgresql.jdbc [auto]
+[INFO]    org.checkerframework:checker-qual:jar:javadoc:3.49.3 -- module checker.qual (auto)
+[INFO]    org.springframework.boot:spring-boot-starter-test:jar:javadoc:3.5.3 -- module spring.boot.starter.test [auto]
+[INFO]    org.springframework.boot:spring-boot-test:jar:javadoc:3.5.3 -- module spring.boot.test [auto]
+[INFO]    org.springframework.boot:spring-boot-test-autoconfigure:jar:javadoc:3.5.3 -- module spring.boot.test.autoconfigure [auto]
+[INFO]    com.jayway.jsonpath:json-path:jar:javadoc:2.9.0 -- module json.path (auto)
+[INFO]    net.minidev:json-smart:jar:javadoc:2.5.2 -- module json.smart (auto)
+[INFO]    net.minidev:accessors-smart:jar:javadoc:2.5.2 -- module accessors.smart (auto)
+[INFO]    org.ow2.asm:asm:jar:javadoc:9.7.1 -- module asm (auto)
+[INFO]    org.assertj:assertj-core:jar:javadoc:3.27.3 -- module assertj.core (auto)
+[INFO]    org.awaitility:awaitility:jar:javadoc:4.2.2 -- module awaitility (auto)
+[INFO]    org.hamcrest:hamcrest:jar:javadoc:3.0 -- module hamcrest (auto)
+[INFO]    org.junit.jupiter:junit-jupiter:jar:javadoc:5.12.2 -- module junit.jupiter (auto)
+[INFO]    org.junit.jupiter:junit-jupiter-api:jar:javadoc:5.12.2 -- module junit.jupiter.api (auto)
+[INFO]    org.opentest4j:opentest4j:jar:javadoc:1.3.0 -- module opentest4j (auto)
+[INFO]    org.junit.platform:junit-platform-commons:jar:javadoc:1.12.2 -- module junit.platform.commons (auto)
+[INFO]    org.apiguardian:apiguardian-api:jar:javadoc:1.1.2 -- module apiguardian.api (auto)
+[INFO]    org.junit.jupiter:junit-jupiter-params:jar:javadoc:5.12.2 -- module junit.jupiter.params (auto)
+[INFO]    org.junit.jupiter:junit-jupiter-engine:jar:javadoc:5.12.2 -- module junit.jupiter.engine (auto)
+[INFO]    org.junit.platform:junit-platform-engine:jar:javadoc:1.12.2 -- module junit.platform.engine (auto)
+[INFO]    org.mockito:mockito-core:jar:javadoc:5.17.0 -- module mockito.core (auto)
+[INFO]    net.bytebuddy:byte-buddy-agent:jar:javadoc:1.17.6
+[INFO]    org.objenesis:objenesis:jar:javadoc:3.3 -- module objenesis (auto)
+[INFO]    org.mockito:mockito-junit-jupiter:jar:javadoc:5.17.0 -- module mockito.junit.jupiter (auto)
+[INFO]    org.skyscreamer:jsonassert:jar:javadoc:1.5.3 -- module jsonassert (auto)
+[INFO]    com.vaadin.external.google:android-json:jar:javadoc:0.0.20131108.vaadin1 -- module android.json (auto)
+[INFO]    org.springframework:spring-core:jar:javadoc:6.2.8 -- module spring.core (auto)
+[INFO]    org.springframework:spring-jcl:jar:javadoc:6.2.8 -- module spring.jcl (auto)
+[INFO]    org.springframework:spring-test:jar:javadoc:6.2.8 -- module spring.test (auto)
+[INFO]    org.xmlunit:xmlunit-core:jar:javadoc:2.10.2 -- module xmlunit.core (auto)
+[INFO]    jakarta.xml.bind:jakarta.xml.bind-api:jar:javadoc:4.0.2 -- module jakarta.xml.bind.api (auto)
+[INFO]    org.glassfish.jaxb:jaxb-runtime:jar:javadoc:4.0.5 -- module jaxb.runtime (auto)
+[INFO]    org.glassfish.jaxb:jaxb-core:jar:javadoc:4.0.5 -- module jaxb.core (auto)
+[INFO]    org.eclipse.angus:angus-activation:jar:javadoc:2.0.2 -- module angus.activation (auto)
+[INFO]    org.glassfish.jaxb:txw2:jar:javadoc:4.0.5 -- module txw2 (auto)
+[INFO]    com.sun.istack:istack-commons-runtime:jar:javadoc:4.1.2 -- module istack.commons.runtime (auto)
+[INFO]    jakarta.activation:jakarta.activation-api:jar:javadoc:2.1.3 -- module jakarta.activation.api (auto)
+[INFO]    com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:javadoc:2.19.1 -- module jackson.dataformat.xml (auto)
+[INFO]    com.fasterxml.jackson.core:jackson-core:jar:javadoc:2.19.1 -- module jackson.core (auto)
+[INFO]    com.fasterxml.jackson.core:jackson-annotations:jar:javadoc:2.19.1 -- module jackson.annotations (auto)
+[INFO]    com.fasterxml.jackson.core:jackson-databind:jar:javadoc:2.19.1 -- module jackson.databind (auto)
+[INFO]    org.codehaus.woodstox:stax2-api:jar:javadoc:4.2.2 -- module stax2.api (auto)
+[INFO]    com.fasterxml.woodstox:woodstox-core:jar:javadoc:7.1.1 -- module woodstox.core (auto)
+[INFO]    com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:jar:javadoc:2.19.1 -- module jackson.module.jakarta.xmlbind.annotations (auto)
+[INFO]    com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:jar:javadoc:2.19.1 -- module jackson.datatype.hibernate6 (auto)
+[INFO]    jakarta.transaction:jakarta.transaction-api:jar:javadoc:2.0.1 -- module jakarta.transaction.api (auto)
+[INFO]    org.projectlombok:lombok:jar:javadoc:1.18.42 -- module lombok (auto)
+[INFO]    org.modelmapper:modelmapper:jar:javadoc:3.2.6 -- module modelmapper (auto)
+[INFO]    com.google.guava:guava:jar:javadoc:33.4.8-jre -- module guava (auto)
+[INFO]    com.google.guava:failureaccess:jar:javadoc:1.0.3 -- module failureaccess (auto)
+[INFO]    org.jspecify:jspecify:jar:javadoc:1.0.0 -- module jspecify (auto)
+[INFO]    com.google.errorprone:error_prone_annotations:jar:javadoc:2.36.0 -- module error.prone.annotations (auto)
+[INFO]    com.google.j2objc:j2objc-annotations:jar:javadoc:3.0.0 -- module j2objc.annotations (auto)
+[INFO] 
+[INFO] The following files have NOT been resolved:
+[INFO]    org.springframework.boot:spring-boot-starter-actuator:jar:3.5.3:compile -- module spring.boot.starter.actuator [auto]
+[INFO]    org.springframework.boot:spring-boot-starter:jar:3.5.3:compile -- module spring.boot.starter [auto]
+[INFO]    org.springframework.boot:spring-boot-starter-logging:jar:3.5.3:compile -- module spring.boot.starter.logging [auto]
+[INFO]    ch.qos.logback:logback-classic:jar:1.5.18:compile -- module ch.qos.logback.classic
+[INFO]    ch.qos.logback:logback-core:jar:1.5.18:compile -- module ch.qos.logback.core
+[INFO]    org.apache.logging.log4j:log4j-to-slf4j:jar:2.24.3:compile -- module org.apache.logging.log4j.to.slf4j
+[INFO]    org.apache.logging.log4j:log4j-api:jar:2.24.3:compile -- module org.apache.logging.log4j
+[INFO]    org.slf4j:jul-to-slf4j:jar:2.0.17:compile -- module jul.to.slf4j
+[INFO]    jakarta.annotation:jakarta.annotation-api:jar:2.1.1:compile -- module jakarta.annotation
+[INFO]    org.yaml:snakeyaml:jar:2.4:compile -- module org.yaml.snakeyaml
+[INFO]    org.springframework.boot:spring-boot-actuator-autoconfigure:jar:3.5.3:compile -- module spring.boot.actuator.autoconfigure [auto]
+[INFO]    org.springframework.boot:spring-boot-actuator:jar:3.5.3:compile -- module spring.boot.actuator [auto]
+[INFO]    com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.19.1:compile -- module com.fasterxml.jackson.datatype.jsr310
+[INFO]    io.micrometer:micrometer-observation:jar:1.15.1:compile -- module micrometer.observation [auto]
+[INFO]    io.micrometer:micrometer-commons:jar:1.15.1:compile -- module micrometer.commons [auto]
+[INFO]    io.micrometer:micrometer-jakarta9:jar:1.15.1:compile -- module micrometer.jakarta9 [auto]
+[INFO]    io.micrometer:micrometer-core:jar:1.15.1:compile -- module micrometer.core [auto]
+[INFO]    org.hdrhistogram:HdrHistogram:jar:2.2.2:runtime -- module HdrHistogram (auto)
+[INFO]    org.latencyutils:LatencyUtils:jar:2.0.3:runtime -- module LatencyUtils (auto)
+[INFO]    org.springframework.boot:spring-boot-starter-data-jpa:jar:3.5.3:compile -- module spring.boot.starter.data.jpa [auto]
+[INFO]    org.springframework.boot:spring-boot-starter-jdbc:jar:3.5.3:compile -- module spring.boot.starter.jdbc [auto]
+[INFO]    com.zaxxer:HikariCP:jar:6.3.0:compile -- module com.zaxxer.hikari
+[INFO]    org.springframework:spring-jdbc:jar:6.2.8:compile -- module spring.jdbc [auto]
+[INFO]    org.hibernate.orm:hibernate-core:jar:6.6.18.Final:compile -- module org.hibernate.orm.core [auto]
+[INFO]    jakarta.persistence:jakarta.persistence-api:jar:3.1.0:compile -- module jakarta.persistence
+[INFO]    org.jboss.logging:jboss-logging:jar:3.6.1.Final:compile -- module org.jboss.logging
+[INFO]    org.hibernate.common:hibernate-commons-annotations:jar:7.0.3.Final:runtime -- module org.hibernate.commons.annotations
+[INFO]    io.smallrye:jandex:jar:3.2.0:runtime -- module org.jboss.jandex [auto]
+[INFO]    com.fasterxml:classmate:jar:1.7.0:compile -- module com.fasterxml.classmate
+[INFO]    net.bytebuddy:byte-buddy:jar:1.17.6:runtime -- module net.bytebuddy
+[INFO]    jakarta.inject:jakarta.inject-api:jar:2.0.1:runtime -- module jakarta.inject
+[INFO]    org.antlr:antlr4-runtime:jar:4.13.0:compile -- module org.antlr.antlr4.runtime [auto]
+[INFO]    org.springframework.data:spring-data-jpa:jar:3.5.1:compile -- module spring.data.jpa [auto]
+[INFO]    org.springframework.data:spring-data-commons:jar:3.5.1:compile -- module spring.data.commons [auto]
+[INFO]    org.springframework:spring-orm:jar:6.2.8:compile -- module spring.orm [auto]
+[INFO]    org.springframework:spring-context:jar:6.2.8:compile -- module spring.context [auto]
+[INFO]    org.springframework:spring-aop:jar:6.2.8:compile -- module spring.aop [auto]
+[INFO]    org.springframework:spring-tx:jar:6.2.8:compile -- module spring.tx [auto]
+[INFO]    org.springframework:spring-beans:jar:6.2.8:compile -- module spring.beans [auto]
+[INFO]    org.slf4j:slf4j-api:jar:2.0.17:compile -- module org.slf4j
+[INFO]    org.springframework:spring-aspects:jar:6.2.8:compile -- module spring.aspects [auto]
+[INFO]    org.aspectj:aspectjweaver:jar:1.9.24:compile -- module org.aspectj.weaver [auto]
+[INFO]    org.springframework.boot:spring-boot-starter-web:jar:3.5.3:compile -- module spring.boot.starter.web [auto]
+[INFO]    org.springframework.boot:spring-boot-starter-json:jar:3.5.3:compile -- module spring.boot.starter.json [auto]
+[INFO]    com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.19.1:compile -- module com.fasterxml.jackson.datatype.jdk8
+[INFO]    com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.19.1:compile -- module com.fasterxml.jackson.module.paramnames
+[INFO]    org.springframework.boot:spring-boot-starter-tomcat:jar:3.5.3:compile -- module spring.boot.starter.tomcat [auto]
+[INFO]    org.apache.tomcat.embed:tomcat-embed-core:jar:10.1.42:compile -- module org.apache.tomcat.embed.core
+[INFO]    org.apache.tomcat.embed:tomcat-embed-websocket:jar:10.1.42:compile -- module org.apache.tomcat.embed.websocket
+[INFO]    org.springframework:spring-web:jar:6.2.8:compile -- module spring.web [auto]
+[INFO]    org.springframework:spring-webmvc:jar:6.2.8:compile -- module spring.webmvc [auto]
+[INFO]    org.springframework:spring-expression:jar:6.2.8:compile -- module spring.expression [auto]
+[INFO]    org.springframework.boot:spring-boot-starter-thymeleaf:jar:3.5.3:compile -- module spring.boot.starter.thymeleaf [auto]
+[INFO]    org.thymeleaf:thymeleaf-spring6:jar:3.1.3.RELEASE:compile -- module thymeleaf.spring6 [auto]
+[INFO]    org.thymeleaf:thymeleaf:jar:3.1.3.RELEASE:compile -- module thymeleaf [auto]
+[INFO]    org.attoparser:attoparser:jar:2.0.7.RELEASE:compile -- module attoparser [auto]
+[INFO]    org.unbescape:unbescape:jar:1.1.6.RELEASE:compile -- module unbescape [auto]
+[INFO]    org.springframework.boot:spring-boot-starter-data-rest:jar:3.5.3:compile -- module spring.boot.starter.data.rest [auto]
+[INFO]    org.springframework.data:spring-data-rest-webmvc:jar:4.5.1:compile -- module spring.data.rest.webmvc [auto]
+[INFO]    org.springframework.data:spring-data-rest-core:jar:4.5.1:compile -- module spring.data.rest.core [auto]
+[INFO]    org.springframework.hateoas:spring-hateoas:jar:2.5.1:compile -- module spring.hateoas [auto]
+[INFO]    org.springframework.plugin:spring-plugin-core:jar:3.0.0:compile -- module spring.plugin.core [auto]
+[INFO]    org.atteo:evo-inflector:jar:1.3:compile -- module evo.inflector (auto)
+[INFO]    org.springdoc:springdoc-openapi-starter-webmvc-ui:jar:2.8.14:compile -- module org.springdoc.openapi.ui [auto]
+[INFO]    org.springdoc:springdoc-openapi-starter-webmvc-api:jar:2.8.14:compile -- module org.springdoc.openapi.webmvc.core [auto]
+[INFO]    org.springdoc:springdoc-openapi-starter-common:jar:2.8.14:compile -- module org.springdoc.openapi.common [auto]
+[INFO]    io.swagger.core.v3:swagger-core-jakarta:jar:2.2.38:compile -- module io.swagger.v3.core [auto]
+[INFO]    org.apache.commons:commons-lang3:jar:3.17.0:compile -- module org.apache.commons.lang3
+[INFO]    io.swagger.core.v3:swagger-annotations-jakarta:jar:2.2.38:compile -- module io.swagger.v3.oas.annotations [auto]
+[INFO]    io.swagger.core.v3:swagger-models-jakarta:jar:2.2.38:compile -- module io.swagger.v3.oas.models [auto]
+[INFO]    com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.19.1:compile -- module com.fasterxml.jackson.dataformat.yaml
+[INFO]    org.webjars:swagger-ui:jar:5.30.1:compile -- module swagger.ui (auto)
+[INFO]    org.webjars:webjars-locator-lite:jar:1.1.0:compile -- module webjars.locator.lite (auto)
+[INFO]    org.springframework.boot:spring-boot-devtools:jar:3.5.3:runtime (optional) -- module spring.boot.devtools [auto]
+[INFO]    org.springframework.boot:spring-boot:jar:3.5.3:compile -- module spring.boot [auto]
+[INFO]    org.springframework.boot:spring-boot-autoconfigure:jar:3.5.3:compile -- module spring.boot.autoconfigure [auto]
+[INFO]    org.springframework.boot:spring-boot-starter-validation:jar:3.5.3:compile -- module spring.boot.starter.validation [auto]
+[INFO]    org.apache.tomcat.embed:tomcat-embed-el:jar:10.1.42:compile -- module org.apache.tomcat.embed.el
+[INFO]    org.hibernate.validator:hibernate-validator:jar:8.0.2.Final:compile -- module org.hibernate.validator [auto]
+[INFO]    jakarta.validation:jakarta.validation-api:jar:3.0.2:compile -- module jakarta.validation
+[INFO]    com.h2database:h2:jar:2.2.220:compile -- module com.h2database [auto]
+[INFO]    org.postgresql:postgresql:jar:42.7.7:runtime -- module org.postgresql.jdbc [auto]
+[INFO]    org.checkerframework:checker-qual:jar:3.49.3:runtime -- module org.checkerframework.checker.qual
+[INFO]    org.springframework.boot:spring-boot-starter-test:jar:3.5.3:test -- module spring.boot.starter.test [auto]
+[INFO]    org.springframework.boot:spring-boot-test:jar:3.5.3:test -- module spring.boot.test [auto]
+[INFO]    org.springframework.boot:spring-boot-test-autoconfigure:jar:3.5.3:test -- module spring.boot.test.autoconfigure [auto]
+[INFO]    com.jayway.jsonpath:json-path:jar:2.9.0:compile -- module json.path [auto]
+[INFO]    net.minidev:json-smart:jar:2.5.2:runtime -- module json.smart (auto)
+[INFO]    net.minidev:accessors-smart:jar:2.5.2:runtime -- module accessors.smart (auto)
+[INFO]    org.ow2.asm:asm:jar:9.7.1:runtime -- module org.objectweb.asm
+[INFO]    org.assertj:assertj-core:jar:3.27.3:test -- module org.assertj.core
+[INFO]    org.awaitility:awaitility:jar:4.2.2:test -- module awaitility (auto)
+[INFO]    org.hamcrest:hamcrest:jar:3.0:test -- module org.hamcrest [auto]
+[INFO]    org.junit.jupiter:junit-jupiter:jar:5.12.2:test -- module org.junit.jupiter
+[INFO]    org.junit.jupiter:junit-jupiter-api:jar:5.12.2:test -- module org.junit.jupiter.api
+[INFO]    org.opentest4j:opentest4j:jar:1.3.0:test -- module org.opentest4j
+[INFO]    org.junit.platform:junit-platform-commons:jar:1.12.2:test -- module org.junit.platform.commons
+[INFO]    org.apiguardian:apiguardian-api:jar:1.1.2:test -- module org.apiguardian.api
+[INFO]    org.junit.jupiter:junit-jupiter-params:jar:5.12.2:test -- module org.junit.jupiter.params
+[INFO]    org.junit.jupiter:junit-jupiter-engine:jar:5.12.2:test -- module org.junit.jupiter.engine
+[INFO]    org.junit.platform:junit-platform-engine:jar:1.12.2:test -- module org.junit.platform.engine
+[INFO]    org.mockito:mockito-core:jar:5.17.0:test -- module org.mockito
+[INFO]    net.bytebuddy:byte-buddy-agent:jar:1.17.6:test -- module net.bytebuddy.agent
+[INFO]    org.objenesis:objenesis:jar:3.3:test -- module org.objenesis [auto]
+[INFO]    org.mockito:mockito-junit-jupiter:jar:5.17.0:test -- module org.mockito.junit.jupiter
+[INFO]    org.skyscreamer:jsonassert:jar:1.5.3:test -- module jsonassert (auto)
+[INFO]    com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test -- module android.json (auto)
+[INFO]    org.springframework:spring-core:jar:6.2.8:compile -- module spring.core [auto]
+[INFO]    org.springframework:spring-jcl:jar:6.2.8:compile -- module spring.jcl [auto]
+[INFO]    org.springframework:spring-test:jar:6.2.8:test -- module spring.test [auto]
+[INFO]    org.xmlunit:xmlunit-core:jar:2.10.2:test -- module org.xmlunit [auto]
+[INFO]    jakarta.xml.bind:jakarta.xml.bind-api:jar:4.0.2:compile -- module jakarta.xml.bind
+[INFO]    org.glassfish.jaxb:jaxb-runtime:jar:4.0.5:compile -- module org.glassfish.jaxb.runtime
+[INFO]    org.glassfish.jaxb:jaxb-core:jar:4.0.5:compile -- module org.glassfish.jaxb.core
+[INFO]    org.eclipse.angus:angus-activation:jar:2.0.2:runtime -- module org.eclipse.angus.activation
+[INFO]    org.glassfish.jaxb:txw2:jar:4.0.5:compile -- module com.sun.xml.txw2
+[INFO]    com.sun.istack:istack-commons-runtime:jar:4.1.2:compile -- module com.sun.istack.runtime
+[INFO]    jakarta.activation:jakarta.activation-api:jar:2.1.3:compile -- module jakarta.activation
+[INFO]    com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.19.1:compile -- module com.fasterxml.jackson.dataformat.xml
+[INFO]    com.fasterxml.jackson.core:jackson-core:jar:2.19.1:compile -- module com.fasterxml.jackson.core
+[INFO]    com.fasterxml.jackson.core:jackson-annotations:jar:2.19.1:compile -- module com.fasterxml.jackson.annotation
+[INFO]    com.fasterxml.jackson.core:jackson-databind:jar:2.19.1:compile -- module com.fasterxml.jackson.databind
+[INFO]    org.codehaus.woodstox:stax2-api:jar:4.2.2:compile -- module org.codehaus.stax2
+[INFO]    com.fasterxml.woodstox:woodstox-core:jar:7.1.1:compile -- module com.ctc.wstx
+[INFO]    com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:jar:2.19.1:compile -- module com.fasterxml.jackson.module.jakarta.xmlbind
+[INFO]    com.fasterxml.jackson.datatype:jackson-datatype-hibernate6:jar:2.19.1:compile -- module com.fasterxml.jackson.datatype.hibernate6
+[INFO]    jakarta.transaction:jakarta.transaction-api:jar:2.0.1:compile -- module jakarta.transaction
+[INFO]    org.projectlombok:lombok:jar:1.18.42:compile -- module lombok
+[INFO]    org.modelmapper:modelmapper:jar:3.2.6:compile -- module modelmapper (auto)
+[INFO]    com.google.guava:guava:jar:33.4.8-jre:compile -- module com.google.common
+[INFO]    com.google.guava:failureaccess:jar:1.0.3:compile -- module com.google.common.util.concurrent.internal
+[INFO]    com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile -- module listenablefuture (auto)
+[INFO]    org.jspecify:jspecify:jar:1.0.0:compile -- module org.jspecify
+[INFO]    com.google.errorprone:error_prone_annotations:jar:2.36.0:compile -- module com.google.errorprone.annotations
+[INFO]    com.google.j2objc:j2objc-annotations:jar:3.0.0:compile -- module com.google.j2objc.annotations
+[INFO] 
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ pharmacie-spring-jpa ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'ISO-8859-1' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 6 resources
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ pharmacie-spring-jpa ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ pharmacie-spring-jpa ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'ISO-8859-1' encoding to copy filtered properties files.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ pharmacie-spring-jpa ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ pharmacie-spring-jpa ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+Picked up JAVA_TOOL_OPTIONS: -Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8
+[INFO] Running pharmacie.service.CreationCommandeTest
+15:08:25.593 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [pharmacie.service.CreationCommandeTest]: CreationCommandeTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:08:25.830 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration pharmacie.WebApp for test class pharmacie.service.CreationCommandeTest
+15:08:26.141 [main] INFO org.springframework.boot.devtools.restart.RestartApplicationListener -- Restart disabled due to context in which it is running
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.3)
+
+2026-01-30T15:08:26.645+01:00  INFO 12932 --- [           main] pharmacie.service.CreationCommandeTest   : Starting CreationCommandeTest using Java 25.0.1 with PID 12932 (started by LEGION in C:\Users\LEGION\pharmacie_service_metier)
+2026-01-30T15:08:26.647+01:00  INFO 12932 --- [           main] pharmacie.service.CreationCommandeTest   : No active profile set, falling back to 1 default profile: "default"
+2026-01-30T15:08:28.779+01:00  INFO 12932 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-30T15:08:28.905+01:00  INFO 12932 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 108 ms. Found 5 JPA repository interfaces.
+2026-01-30T15:08:29.783+01:00  INFO 12932 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-30T15:08:30.162+01:00  INFO 12932 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:4a9cb0e5-77e0-4d53-a2fe-da776a266b6e user=SA
+2026-01-30T15:08:30.164+01:00  INFO 12932 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-30T15:08:30.249+01:00  INFO 12932 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-30T15:08:30.349+01:00  INFO 12932 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2026-01-30T15:08:30.422+01:00  INFO 12932 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-01-30T15:08:30.934+01:00  INFO 12932 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-30T15:08:31.067+01:00  INFO 12932 --- [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.2.220
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-30T15:08:32.907+01:00  INFO 12932 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: 
+    drop table if exists categorie cascade 
+Hibernate: 
+    drop table if exists commande cascade 
+Hibernate: 
+    drop table if exists dispensaire cascade 
+Hibernate: 
+    drop table if exists ligne cascade 
+Hibernate: 
+    drop table if exists medicament cascade 
+Hibernate: 
+    create table categorie (
+        code integer generated by default as identity,
+        description varchar(255),
+        libelle varchar(255) not null unique,
+        primary key (code)
+    )
+Hibernate: 
+    create table commande (
+        envoyeele date,
+        numero integer generated by default as identity,
+        port numeric(18,2),
+        remise numeric(10,2) not null,
+        saisiele date not null,
+        dispensaire_code varchar(5) not null,
+        code_postal varchar(10),
+        pays varchar(15),
+        region varchar(15),
+        ville varchar(15),
+        destinataire varchar(40),
+        adresse varchar(60),
+        primary key (numero)
+    )
+Hibernate: 
+    create table dispensaire (
+        code varchar(5) not null,
+        code_postal varchar(10),
+        pays varchar(15),
+        region varchar(15),
+        ville varchar(15),
+        fax varchar(24),
+        telephone varchar(24),
+        contact varchar(30),
+        fonction varchar(30),
+        nom varchar(40) not null,
+        adresse varchar(60),
+        primary key (code)
+    )
+Hibernate: 
+    create table ligne (
+        commande_numero integer not null,
+        id integer generated by default as identity,
+        medicament_reference integer not null,
+        quantite integer not null,
+        primary key (id),
+        unique (commande_numero, medicament_reference)
+    )
+Hibernate: 
+    create table medicament (
+        categorie_code integer not null,
+        indisponible boolean not null,
+        niveau_de_reappro integer not null,
+        prix_unitaire numeric(38,2),
+        reference integer generated by default as identity,
+        unites_commandees integer not null,
+        unites_en_stock integer not null,
+        imageurl varchar(500),
+        nom varchar(255) unique,
+        quantite_par_unite varchar(255),
+        primary key (reference)
+    )
+Hibernate: 
+    alter table if exists commande 
+       add constraint FKn88j9gc356d6vgi9uv03mu475 
+       foreign key (dispensaire_code) 
+       references dispensaire
+Hibernate: 
+    alter table if exists ligne 
+       add constraint FK6jxlgqievklsvlub5jdc6uh80 
+       foreign key (commande_numero) 
+       references commande
+Hibernate: 
+    alter table if exists ligne 
+       add constraint FK8tfr2mmn8n7ymcmp4wahst57h 
+       foreign key (medicament_reference) 
+       references medicament
+Hibernate: 
+    alter table if exists medicament 
+       add constraint FK6ha18d5lasbqv8ku69ngeh4uh 
+       foreign key (categorie_code) 
+       references categorie
+2026-01-30T15:08:33.009+01:00  INFO 12932 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-30T15:08:33.588+01:00  INFO 12932 --- [           main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-01-30T15:08:35.543+01:00  WARN 12932 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-30T15:08:35.846+01:00  INFO 12932 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-01-30T15:08:36.351+01:00  WARN 12932 --- [           main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2026-01-30T15:08:37.216+01:00  INFO 12932 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-01-30T15:08:37.351+01:00  INFO 12932 --- [           main] pharmacie.service.CreationCommandeTest   : Started CreationCommandeTest in 11.23 seconds (process running for 13.1)
+2026-01-30T15:08:37.515+01:00  WARN 12932 --- [           main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-01-30T15:08:37.515+01:00  WARN 12932 --- [           main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+WARNING: A Java agent has been loaded dynamically (C:\Users\LEGION\.m2\repository\net\bytebuddy\byte-buddy-agent\1.17.6\byte-buddy-agent-1.17.6.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+2026-01-30T15:08:38.141+01:00  INFO 12932 --- [           main] pharmacie.service.CommandeService        : Service : Ajout d'une ligne commande 99998 / med 98 qty 100
+Hibernate: 
+    select
+        c1_0.numero,
+        c1_0.adresse,
+        c1_0.code_postal,
+        c1_0.pays,
+        c1_0.region,
+        c1_0.ville,
+        c1_0.destinataire,
+        c1_0.dispensaire_code,
+        d1_0.code,
+        d1_0.adresse,
+        d1_0.code_postal,
+        d1_0.pays,
+        d1_0.region,
+        d1_0.ville,
+        d1_0.contact,
+        d1_0.fax,
+        d1_0.fonction,
+        d1_0.nom,
+        d1_0.telephone,
+        c1_0.envoyeele,
+        c1_0.port,
+        c1_0.remise,
+        c1_0.saisiele 
+    from
+        commande c1_0 
+    join
+        dispensaire d1_0 
+            on d1_0.code=c1_0.dispensaire_code 
+    where
+        c1_0.numero=?
+Hibernate: 
+    select
+        m1_0.reference,
+        m1_0.categorie_code,
+        c1_0.code,
+        c1_0.description,
+        c1_0.libelle,
+        m1_0.imageurl,
+        m1_0.indisponible,
+        m1_0.niveau_de_reappro,
+        m1_0.nom,
+        m1_0.prix_unitaire,
+        m1_0.quantite_par_unite,
+        m1_0.unites_commandees,
+        m1_0.unites_en_stock 
+    from
+        medicament m1_0 
+    join
+        categorie c1_0 
+            on c1_0.code=m1_0.categorie_code 
+    where
+        m1_0.reference=?
+2026-01-30T15:08:38.313+01:00  INFO 12932 --- [           main] pharmacie.service.CommandeService        : Service : Ajout d'une ligne commande 99998 / med 93 qty 15
+Hibernate: 
+    select
+        c1_0.numero,
+        c1_0.adresse,
+        c1_0.code_postal,
+        c1_0.pays,
+        c1_0.region,
+        c1_0.ville,
+        c1_0.destinataire,
+        c1_0.dispensaire_code,
+        d1_0.code,
+        d1_0.adresse,
+        d1_0.code_postal,
+        d1_0.pays,
+        d1_0.region,
+        d1_0.ville,
+        d1_0.contact,
+        d1_0.fax,
+        d1_0.fonction,
+        d1_0.nom,
+        d1_0.telephone,
+        c1_0.envoyeele,
+        c1_0.port,
+        c1_0.remise,
+        c1_0.saisiele 
+    from
+        commande c1_0 
+    join
+        dispensaire d1_0 
+            on d1_0.code=c1_0.dispensaire_code 
+    where
+        c1_0.numero=?
+Hibernate: 
+    select
+        m1_0.reference,
+        m1_0.categorie_code,
+        c1_0.code,
+        c1_0.description,
+        c1_0.libelle,
+        m1_0.imageurl,
+        m1_0.indisponible,
+        m1_0.niveau_de_reappro,
+        m1_0.nom,
+        m1_0.prix_unitaire,
+        m1_0.quantite_par_unite,
+        m1_0.unites_commandees,
+        m1_0.unites_en_stock 
+    from
+        medicament m1_0 
+    join
+        categorie c1_0 
+            on c1_0.code=m1_0.categorie_code 
+    where
+        m1_0.reference=?
+Hibernate: 
+    select
+        l1_0.id,
+        l1_0.commande_numero,
+        l1_0.medicament_reference,
+        l1_0.quantite 
+    from
+        ligne l1_0 
+    where
+        l1_0.commande_numero=? 
+        and l1_0.medicament_reference=?
+Hibernate: 
+    insert 
+    into
+        ligne
+        (commande_numero, medicament_reference, quantite, id) 
+    values
+        (?, ?, ?, default)
+Hibernate: 
+    update
+        medicament 
+    set
+        categorie_code=?,
+        imageurl=?,
+        indisponible=?,
+        niveau_de_reappro=?,
+        nom=?,
+        prix_unitaire=?,
+        quantite_par_unite=?,
+        unites_commandees=?,
+        unites_en_stock=? 
+    where
+        reference=?
+Hibernate: 
+    select
+        m1_0.reference,
+        m1_0.categorie_code,
+        c1_0.code,
+        c1_0.description,
+        c1_0.libelle,
+        m1_0.imageurl,
+        m1_0.indisponible,
+        m1_0.niveau_de_reappro,
+        m1_0.nom,
+        m1_0.prix_unitaire,
+        m1_0.quantite_par_unite,
+        m1_0.unites_commandees,
+        m1_0.unites_en_stock 
+    from
+        medicament m1_0 
+    join
+        categorie c1_0 
+            on c1_0.code=m1_0.categorie_code 
+    where
+        m1_0.reference=?
+2026-01-30T15:08:38.504+01:00  INFO 12932 --- [           main] pharmacie.service.CommandeService        : Service : Suppression de la ligne 4
+Hibernate: 
+    select
+        l1_0.id,
+        l1_0.commande_numero,
+        c1_0.numero,
+        c1_0.adresse,
+        c1_0.code_postal,
+        c1_0.pays,
+        c1_0.region,
+        c1_0.ville,
+        c1_0.destinataire,
+        c1_0.dispensaire_code,
+        d1_0.code,
+        d1_0.adresse,
+        d1_0.code_postal,
+        d1_0.pays,
+        d1_0.region,
+        d1_0.ville,
+        d1_0.contact,
+        d1_0.fax,
+        d1_0.fonction,
+        d1_0.nom,
+        d1_0.telephone,
+        c1_0.envoyeele,
+        c1_0.port,
+        c1_0.remise,
+        c1_0.saisiele,
+        l1_0.medicament_reference,
+        m1_0.reference,
+        m1_0.categorie_code,
+        c2_0.code,
+        c2_0.description,
+        c2_0.libelle,
+        m1_0.imageurl,
+        m1_0.indisponible,
+        m1_0.niveau_de_reappro,
+        m1_0.nom,
+        m1_0.prix_unitaire,
+        m1_0.quantite_par_unite,
+        m1_0.unites_commandees,
+        m1_0.unites_en_stock,
+        l1_0.quantite 
+    from
+        ligne l1_0 
+    join
+        commande c1_0 
+            on c1_0.numero=l1_0.commande_numero 
+    join
+        dispensaire d1_0 
+            on d1_0.code=c1_0.dispensaire_code 
+    join
+        medicament m1_0 
+            on m1_0.reference=l1_0.medicament_reference 
+    join
+        categorie c2_0 
+            on c2_0.code=m1_0.categorie_code 
+    where
+        l1_0.id=?
+Hibernate: 
+    update
+        medicament 
+    set
+        categorie_code=?,
+        imageurl=?,
+        indisponible=?,
+        niveau_de_reappro=?,
+        nom=?,
+        prix_unitaire=?,
+        quantite_par_unite=?,
+        unites_commandees=?,
+        unites_en_stock=? 
+    where
+        reference=?
+Hibernate: 
+    delete 
+    from
+        ligne 
+    where
+        id=?
+Hibernate: 
+    select
+        l1_0.id,
+        l1_0.commande_numero,
+        c1_0.numero,
+        c1_0.adresse,
+        c1_0.code_postal,
+        c1_0.pays,
+        c1_0.region,
+        c1_0.ville,
+        c1_0.destinataire,
+        c1_0.dispensaire_code,
+        d1_0.code,
+        d1_0.adresse,
+        d1_0.code_postal,
+        d1_0.pays,
+        d1_0.region,
+        d1_0.ville,
+        d1_0.contact,
+        d1_0.fax,
+        d1_0.fonction,
+        d1_0.nom,
+        d1_0.telephone,
+        c1_0.envoyeele,
+        c1_0.port,
+        c1_0.remise,
+        c1_0.saisiele,
+        l1_0.medicament_reference,
+        m1_0.reference,
+        m1_0.categorie_code,
+        c2_0.code,
+        c2_0.description,
+        c2_0.libelle,
+        m1_0.imageurl,
+        m1_0.indisponible,
+        m1_0.niveau_de_reappro,
+        m1_0.nom,
+        m1_0.prix_unitaire,
+        m1_0.quantite_par_unite,
+        m1_0.unites_commandees,
+        m1_0.unites_en_stock,
+        l1_0.quantite 
+    from
+        ligne l1_0 
+    join
+        commande c1_0 
+            on c1_0.numero=l1_0.commande_numero 
+    join
+        dispensaire d1_0 
+            on d1_0.code=c1_0.dispensaire_code 
+    join
+        medicament m1_0 
+            on m1_0.reference=l1_0.medicament_reference 
+    join
+        categorie c2_0 
+            on c2_0.code=m1_0.categorie_code 
+    where
+        l1_0.id=?
+Hibernate: 
+    select
+        m1_0.reference,
+        m1_0.categorie_code,
+        c1_0.code,
+        c1_0.description,
+        c1_0.libelle,
+        m1_0.imageurl,
+        m1_0.indisponible,
+        m1_0.niveau_de_reappro,
+        m1_0.nom,
+        m1_0.prix_unitaire,
+        m1_0.quantite_par_unite,
+        m1_0.unites_commandees,
+        m1_0.unites_en_stock 
+    from
+        medicament m1_0 
+    join
+        categorie c1_0 
+            on c1_0.code=m1_0.categorie_code 
+    where
+        m1_0.reference=?
+2026-01-30T15:08:38.555+01:00  INFO 12932 --- [           main] pharmacie.service.CommandeService        : Service : Ajout d'une ligne commande 99998 / med 93 qty 10
+Hibernate: 
+    select
+        c1_0.numero,
+        c1_0.adresse,
+        c1_0.code_postal,
+        c1_0.pays,
+        c1_0.region,
+        c1_0.ville,
+        c1_0.destinataire,
+        c1_0.dispensaire_code,
+        d1_0.code,
+        d1_0.adresse,
+        d1_0.code_postal,
+        d1_0.pays,
+        d1_0.region,
+        d1_0.ville,
+        d1_0.contact,
+        d1_0.fax,
+        d1_0.fonction,
+        d1_0.nom,
+        d1_0.telephone,
+        c1_0.envoyeele,
+        c1_0.port,
+        c1_0.remise,
+        c1_0.saisiele 
+    from
+        commande c1_0 
+    join
+        dispensaire d1_0 
+            on d1_0.code=c1_0.dispensaire_code 
+    where
+        c1_0.numero=?
+Hibernate: 
+    select
+        m1_0.reference,
+        m1_0.categorie_code,
+        c1_0.code,
+        c1_0.description,
+        c1_0.libelle,
+        m1_0.imageurl,
+        m1_0.indisponible,
+        m1_0.niveau_de_reappro,
+        m1_0.nom,
+        m1_0.prix_unitaire,
+        m1_0.quantite_par_unite,
+        m1_0.unites_commandees,
+        m1_0.unites_en_stock 
+    from
+        medicament m1_0 
+    join
+        categorie c1_0 
+            on c1_0.code=m1_0.categorie_code 
+    where
+        m1_0.reference=?
+Hibernate: 
+    select
+        l1_0.id,
+        l1_0.commande_numero,
+        l1_0.medicament_reference,
+        l1_0.quantite 
+    from
+        ligne l1_0 
+    where
+        l1_0.commande_numero=? 
+        and l1_0.medicament_reference=?
+Hibernate: 
+    insert 
+    into
+        ligne
+        (commande_numero, medicament_reference, quantite, id) 
+    values
+        (?, ?, ?, default)
+Hibernate: 
+    update
+        medicament 
+    set
+        categorie_code=?,
+        imageurl=?,
+        indisponible=?,
+        niveau_de_reappro=?,
+        nom=?,
+        prix_unitaire=?,
+        quantite_par_unite=?,
+        unites_commandees=?,
+        unites_en_stock=? 
+    where
+        reference=?
+Hibernate: 
+    select
+        m1_0.reference,
+        m1_0.categorie_code,
+        c1_0.code,
+        c1_0.description,
+        c1_0.libelle,
+        m1_0.imageurl,
+        m1_0.indisponible,
+        m1_0.niveau_de_reappro,
+        m1_0.nom,
+        m1_0.prix_unitaire,
+        m1_0.quantite_par_unite,
+        m1_0.unites_commandees,
+        m1_0.unites_en_stock 
+    from
+        medicament m1_0 
+    join
+        categorie c1_0 
+            on c1_0.code=m1_0.categorie_code 
+    where
+        m1_0.reference=?
+2026-01-30T15:08:38.583+01:00  INFO 12932 --- [           main] pharmacie.service.CommandeService        : Service : Ajout d'une ligne commande 99998 / med 97 qty 5
+Hibernate: 
+    select
+        c1_0.numero,
+        c1_0.adresse,
+        c1_0.code_postal,
+        c1_0.pays,
+        c1_0.region,
+        c1_0.ville,
+        c1_0.destinataire,
+        c1_0.dispensaire_code,
+        d1_0.code,
+        d1_0.adresse,
+        d1_0.code_postal,
+        d1_0.pays,
+        d1_0.region,
+        d1_0.ville,
+        d1_0.contact,
+        d1_0.fax,
+        d1_0.fonction,
+        d1_0.nom,
+        d1_0.telephone,
+        c1_0.envoyeele,
+        c1_0.port,
+        c1_0.remise,
+        c1_0.saisiele 
+    from
+        commande c1_0 
+    join
+        dispensaire d1_0 
+            on d1_0.code=c1_0.dispensaire_code 
+    where
+        c1_0.numero=?
+Hibernate: 
+    select
+        m1_0.reference,
+        m1_0.categorie_code,
+        c1_0.code,
+        c1_0.description,
+        c1_0.libelle,
+        m1_0.imageurl,
+        m1_0.indisponible,
+        m1_0.niveau_de_reappro,
+        m1_0.nom,
+        m1_0.prix_unitaire,
+        m1_0.quantite_par_unite,
+        m1_0.unites_commandees,
+        m1_0.unites_en_stock 
+    from
+        medicament m1_0 
+    join
+        categorie c1_0 
+            on c1_0.code=m1_0.categorie_code 
+    where
+        m1_0.reference=?
+2026-01-30T15:08:38.604+01:00  INFO 12932 --- [           main] pharmacie.service.CommandeService        : Service : Ajout d'une ligne commande 99998 / med 93 qty 5
+Hibernate: 
+    select
+        c1_0.numero,
+        c1_0.adresse,
+        c1_0.code_postal,
+        c1_0.pays,
+        c1_0.region,
+        c1_0.ville,
+        c1_0.destinataire,
+        c1_0.dispensaire_code,
+        d1_0.code,
+        d1_0.adresse,
+        d1_0.code_postal,
+        d1_0.pays,
+        d1_0.region,
+        d1_0.ville,
+        d1_0.contact,
+        d1_0.fax,
+        d1_0.fonction,
+        d1_0.nom,
+        d1_0.telephone,
+        c1_0.envoyeele,
+        c1_0.port,
+        c1_0.remise,
+        c1_0.saisiele 
+    from
+        commande c1_0 
+    join
+        dispensaire d1_0 
+            on d1_0.code=c1_0.dispensaire_code 
+    where
+        c1_0.numero=?
+Hibernate: 
+    select
+        m1_0.reference,
+        m1_0.categorie_code,
+        c1_0.code,
+        c1_0.description,
+        c1_0.libelle,
+        m1_0.imageurl,
+        m1_0.indisponible,
+        m1_0.niveau_de_reappro,
+        m1_0.nom,
+        m1_0.prix_unitaire,
+        m1_0.quantite_par_unite,
+        m1_0.unites_commandees,
+        m1_0.unites_en_stock 
+    from
+        medicament m1_0 
+    join
+        categorie c1_0 
+            on c1_0.code=m1_0.categorie_code 
+    where
+        m1_0.reference=?
+Hibernate: 
+    select
+        l1_0.id,
+        l1_0.commande_numero,
+        l1_0.medicament_reference,
+        l1_0.quantite 
+    from
+        ligne l1_0 
+    where
+        l1_0.commande_numero=? 
+        and l1_0.medicament_reference=?
+Hibernate: 
+    update
+        medicament 
+    set
+        categorie_code=?,
+        imageurl=?,
+        indisponible=?,
+        niveau_de_reappro=?,
+        nom=?,
+        prix_unitaire=?,
+        quantite_par_unite=?,
+        unites_commandees=?,
+        unites_en_stock=? 
+    where
+        reference=?
+Hibernate: 
+    update
+        ligne 
+    set
+        commande_numero=?,
+        medicament_reference=?,
+        quantite=? 
+    where
+        id=?
+2026-01-30T15:08:38.627+01:00  INFO 12932 --- [           main] pharmacie.service.CommandeService        : Service : Ajout d'une ligne commande 99998 / med 93 qty 3
+Hibernate: 
+    select
+        c1_0.numero,
+        c1_0.adresse,
+        c1_0.code_postal,
+        c1_0.pays,
+        c1_0.region,
+        c1_0.ville,
+        c1_0.destinataire,
+        c1_0.dispensaire_code,
+        d1_0.code,
+        d1_0.adresse,
+        d1_0.code_postal,
+        d1_0.pays,
+        d1_0.region,
+        d1_0.ville,
+        d1_0.contact,
+        d1_0.fax,
+        d1_0.fonction,
+        d1_0.nom,
+        d1_0.telephone,
+        c1_0.envoyeele,
+        c1_0.port,
+        c1_0.remise,
+        c1_0.saisiele 
+    from
+        commande c1_0 
+    join
+        dispensaire d1_0 
+            on d1_0.code=c1_0.dispensaire_code 
+    where
+        c1_0.numero=?
+Hibernate: 
+    select
+        m1_0.reference,
+        m1_0.categorie_code,
+        c1_0.code,
+        c1_0.description,
+        c1_0.libelle,
+        m1_0.imageurl,
+        m1_0.indisponible,
+        m1_0.niveau_de_reappro,
+        m1_0.nom,
+        m1_0.prix_unitaire,
+        m1_0.quantite_par_unite,
+        m1_0.unites_commandees,
+        m1_0.unites_en_stock 
+    from
+        medicament m1_0 
+    join
+        categorie c1_0 
+            on c1_0.code=m1_0.categorie_code 
+    where
+        m1_0.reference=?
+Hibernate: 
+    select
+        l1_0.id,
+        l1_0.commande_numero,
+        l1_0.medicament_reference,
+        l1_0.quantite 
+    from
+        ligne l1_0 
+    where
+        l1_0.commande_numero=? 
+        and l1_0.medicament_reference=?
+Hibernate: 
+    update
+        medicament 
+    set
+        categorie_code=?,
+        imageurl=?,
+        indisponible=?,
+        niveau_de_reappro=?,
+        nom=?,
+        prix_unitaire=?,
+        quantite_par_unite=?,
+        unites_commandees=?,
+        unites_en_stock=? 
+    where
+        reference=?
+Hibernate: 
+    update
+        ligne 
+    set
+        commande_numero=?,
+        medicament_reference=?,
+        quantite=? 
+    where
+        id=?
+Hibernate: 
+    select
+        m1_0.reference,
+        m1_0.categorie_code,
+        c1_0.code,
+        c1_0.description,
+        c1_0.libelle,
+        m1_0.imageurl,
+        m1_0.indisponible,
+        m1_0.niveau_de_reappro,
+        m1_0.nom,
+        m1_0.prix_unitaire,
+        m1_0.quantite_par_unite,
+        m1_0.unites_commandees,
+        m1_0.unites_en_stock 
+    from
+        medicament m1_0 
+    join
+        categorie c1_0 
+            on c1_0.code=m1_0.categorie_code 
+    where
+        m1_0.reference=?
+2026-01-30T15:08:38.662+01:00  INFO 12932 --- [           main] pharmacie.service.CommandeService        : Service : Création d'une commande pour 0COM
+Hibernate: 
+    select
+        d1_0.code,
+        d1_0.adresse,
+        d1_0.code_postal,
+        d1_0.pays,
+        d1_0.region,
+        d1_0.ville,
+        d1_0.contact,
+        d1_0.fax,
+        d1_0.fonction,
+        d1_0.nom,
+        d1_0.telephone 
+    from
+        dispensaire d1_0 
+    where
+        d1_0.code=?
+Hibernate: 
+    select
+        coalesce(sum(l1_0.quantite), 0) 
+    from
+        ligne l1_0 
+    join
+        commande c1_0 
+            on c1_0.numero=l1_0.commande_numero 
+    where
+        c1_0.dispensaire_code=? 
+        and c1_0.envoyeele is not null
+Hibernate: 
+    insert 
+    into
+        commande
+        (adresse, code_postal, pays, region, ville, destinataire, dispensaire_code, envoyeele, port, remise, saisiele, numero) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, default)
+Hibernate: 
+    select
+        c1_0.numero,
+        c1_0.adresse,
+        c1_0.code_postal,
+        c1_0.pays,
+        c1_0.region,
+        c1_0.ville,
+        c1_0.destinataire,
+        c1_0.dispensaire_code,
+        d1_0.code,
+        d1_0.adresse,
+        d1_0.code_postal,
+        d1_0.pays,
+        d1_0.region,
+        d1_0.ville,
+        d1_0.contact,
+        d1_0.fax,
+        d1_0.fonction,
+        d1_0.nom,
+        d1_0.telephone,
+        c1_0.envoyeele,
+        c1_0.port,
+        c1_0.remise,
+        c1_0.saisiele 
+    from
+        commande c1_0 
+    join
+        dispensaire d1_0 
+            on d1_0.code=c1_0.dispensaire_code 
+    where
+        c1_0.numero=?
+2026-01-30T15:08:38.736+01:00  INFO 12932 --- [           main] pharmacie.service.CommandeService        : Service : Enregistrement d'expédition pour la commande 99998
+Hibernate: 
+    select
+        c1_0.numero,
+        c1_0.adresse,
+        c1_0.code_postal,
+        c1_0.pays,
+        c1_0.region,
+        c1_0.ville,
+        c1_0.destinataire,
+        c1_0.dispensaire_code,
+        d1_0.code,
+        d1_0.adresse,
+        d1_0.code_postal,
+        d1_0.pays,
+        d1_0.region,
+        d1_0.ville,
+        d1_0.contact,
+        d1_0.fax,
+        d1_0.fonction,
+        d1_0.nom,
+        d1_0.telephone,
+        c1_0.envoyeele,
+        c1_0.port,
+        c1_0.remise,
+        c1_0.saisiele 
+    from
+        commande c1_0 
+    join
+        dispensaire d1_0 
+            on d1_0.code=c1_0.dispensaire_code 
+    where
+        c1_0.numero=?
+Hibernate: 
+    select
+        l1_0.commande_numero,
+        l1_0.id,
+        l1_0.medicament_reference,
+        m1_0.reference,
+        m1_0.categorie_code,
+        c2_0.code,
+        c2_0.description,
+        c2_0.libelle,
+        m1_0.imageurl,
+        m1_0.indisponible,
+        m1_0.niveau_de_reappro,
+        m1_0.nom,
+        m1_0.prix_unitaire,
+        m1_0.quantite_par_unite,
+        m1_0.unites_commandees,
+        m1_0.unites_en_stock,
+        l1_0.quantite 
+    from
+        ligne l1_0 
+    left join
+        medicament m1_0 
+            on m1_0.reference=l1_0.medicament_reference 
+    left join
+        categorie c2_0 
+            on c2_0.code=m1_0.categorie_code 
+    where
+        l1_0.commande_numero=?
+Hibernate: 
+    update
+        commande 
+    set
+        adresse=?,
+        code_postal=?,
+        pays=?,
+        region=?,
+        ville=?,
+        destinataire=?,
+        dispensaire_code=?,
+        envoyeele=?,
+        port=?,
+        remise=?,
+        saisiele=? 
+    where
+        numero=?
+Hibernate: 
+    update
+        medicament 
+    set
+        categorie_code=?,
+        imageurl=?,
+        indisponible=?,
+        niveau_de_reappro=?,
+        nom=?,
+        prix_unitaire=?,
+        quantite_par_unite=?,
+        unites_commandees=?,
+        unites_en_stock=? 
+    where
+        reference=?
+Hibernate: 
+    update
+        medicament 
+    set
+        categorie_code=?,
+        imageurl=?,
+        indisponible=?,
+        niveau_de_reappro=?,
+        nom=?,
+        prix_unitaire=?,
+        quantite_par_unite=?,
+        unites_commandees=?,
+        unites_en_stock=? 
+    where
+        reference=?
+2026-01-30T15:08:38.767+01:00  INFO 12932 --- [           main] pharmacie.service.CommandeService        : Service : Création d'une commande pour 0COM
+Hibernate: 
+    select
+        d1_0.code,
+        d1_0.adresse,
+        d1_0.code_postal,
+        d1_0.pays,
+        d1_0.region,
+        d1_0.ville,
+        d1_0.contact,
+        d1_0.fax,
+        d1_0.fonction,
+        d1_0.nom,
+        d1_0.telephone 
+    from
+        dispensaire d1_0 
+    where
+        d1_0.code=?
+Hibernate: 
+    select
+        coalesce(sum(l1_0.quantite), 0) 
+    from
+        ligne l1_0 
+    join
+        commande c1_0 
+            on c1_0.numero=l1_0.commande_numero 
+    where
+        c1_0.dispensaire_code=? 
+        and c1_0.envoyeele is not null
+Hibernate: 
+    insert 
+    into
+        commande
+        (adresse, code_postal, pays, region, ville, destinataire, dispensaire_code, envoyeele, port, remise, saisiele, numero) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, default)
+Hibernate: 
+    select
+        d1_0.code,
+        d1_0.adresse,
+        d1_0.code_postal,
+        d1_0.pays,
+        d1_0.region,
+        d1_0.ville,
+        d1_0.contact,
+        d1_0.fax,
+        d1_0.fonction,
+        d1_0.nom,
+        d1_0.telephone 
+    from
+        dispensaire d1_0 
+    where
+        d1_0.code=?
+Hibernate: 
+    select
+        c1_0.numero,
+        c1_0.adresse,
+        c1_0.code_postal,
+        c1_0.pays,
+        c1_0.region,
+        c1_0.ville,
+        c1_0.destinataire,
+        c1_0.dispensaire_code,
+        d1_0.code,
+        d1_0.adresse,
+        d1_0.code_postal,
+        d1_0.pays,
+        d1_0.region,
+        d1_0.ville,
+        d1_0.contact,
+        d1_0.fax,
+        d1_0.fonction,
+        d1_0.nom,
+        d1_0.telephone,
+        c1_0.envoyeele,
+        c1_0.port,
+        c1_0.remise,
+        c1_0.saisiele 
+    from
+        commande c1_0 
+    join
+        dispensaire d1_0 
+            on d1_0.code=c1_0.dispensaire_code 
+    where
+        c1_0.numero=?
+Hibernate: 
+    select
+        l1_0.id,
+        l1_0.commande_numero,
+        l1_0.medicament_reference,
+        l1_0.quantite 
+    from
+        ligne l1_0 
+    join
+        commande c1_0 
+            on c1_0.numero=l1_0.commande_numero 
+    where
+        c1_0.numero=?
+Hibernate: 
+    select
+        c1_0.numero,
+        c1_0.adresse,
+        c1_0.code_postal,
+        c1_0.pays,
+        c1_0.region,
+        c1_0.ville,
+        c1_0.destinataire,
+        c1_0.dispensaire_code,
+        d1_0.code,
+        d1_0.adresse,
+        d1_0.code_postal,
+        d1_0.pays,
+        d1_0.region,
+        d1_0.ville,
+        d1_0.contact,
+        d1_0.fax,
+        d1_0.fonction,
+        d1_0.nom,
+        d1_0.telephone,
+        c1_0.envoyeele,
+        c1_0.port,
+        c1_0.remise,
+        c1_0.saisiele 
+    from
+        commande c1_0 
+    join
+        dispensaire d1_0 
+            on d1_0.code=c1_0.dispensaire_code 
+    where
+        c1_0.numero=?
+Hibernate: 
+    select
+        m1_0.reference,
+        m1_0.categorie_code,
+        c1_0.code,
+        c1_0.description,
+        c1_0.libelle,
+        m1_0.imageurl,
+        m1_0.indisponible,
+        m1_0.niveau_de_reappro,
+        m1_0.nom,
+        m1_0.prix_unitaire,
+        m1_0.quantite_par_unite,
+        m1_0.unites_commandees,
+        m1_0.unites_en_stock 
+    from
+        medicament m1_0 
+    join
+        categorie c1_0 
+            on c1_0.code=m1_0.categorie_code 
+    where
+        m1_0.reference=?
+Hibernate: 
+    select
+        m1_0.reference,
+        m1_0.categorie_code,
+        c1_0.code,
+        c1_0.description,
+        c1_0.libelle,
+        m1_0.imageurl,
+        m1_0.indisponible,
+        m1_0.niveau_de_reappro,
+        m1_0.nom,
+        m1_0.prix_unitaire,
+        m1_0.quantite_par_unite,
+        m1_0.unites_commandees,
+        m1_0.unites_en_stock 
+    from
+        medicament m1_0 
+    join
+        categorie c1_0 
+            on c1_0.code=m1_0.categorie_code 
+    where
+        m1_0.reference=?
+Hibernate: 
+    select
+        m1_0.reference,
+        m1_0.categorie_code,
+        c1_0.code,
+        c1_0.description,
+        c1_0.libelle,
+        m1_0.imageurl,
+        m1_0.indisponible,
+        m1_0.niveau_de_reappro,
+        m1_0.nom,
+        m1_0.prix_unitaire,
+        m1_0.quantite_par_unite,
+        m1_0.unites_commandees,
+        m1_0.unites_en_stock 
+    from
+        medicament m1_0 
+    join
+        categorie c1_0 
+            on c1_0.code=m1_0.categorie_code 
+    where
+        m1_0.reference=?
+2026-01-30T15:08:38.839+01:00  INFO 12932 --- [           main] pharmacie.service.CommandeService        : Service : Enregistrement d'expédition pour la commande 99998
+Hibernate: 
+    select
+        c1_0.numero,
+        c1_0.adresse,
+        c1_0.code_postal,
+        c1_0.pays,
+        c1_0.region,
+        c1_0.ville,
+        c1_0.destinataire,
+        c1_0.dispensaire_code,
+        d1_0.code,
+        d1_0.adresse,
+        d1_0.code_postal,
+        d1_0.pays,
+        d1_0.region,
+        d1_0.ville,
+        d1_0.contact,
+        d1_0.fax,
+        d1_0.fonction,
+        d1_0.nom,
+        d1_0.telephone,
+        c1_0.envoyeele,
+        c1_0.port,
+        c1_0.remise,
+        c1_0.saisiele 
+    from
+        commande c1_0 
+    join
+        dispensaire d1_0 
+            on d1_0.code=c1_0.dispensaire_code 
+    where
+        c1_0.numero=?
+2026-01-30T15:08:38.850+01:00  INFO 12932 --- [           main] pharmacie.service.CommandeService        : Service : Création d'une commande pour 2COM
+Hibernate: 
+    select
+        d1_0.code,
+        d1_0.adresse,
+        d1_0.code_postal,
+        d1_0.pays,
+        d1_0.region,
+        d1_0.ville,
+        d1_0.contact,
+        d1_0.fax,
+        d1_0.fonction,
+        d1_0.nom,
+        d1_0.telephone 
+    from
+        dispensaire d1_0 
+    where
+        d1_0.code=?
+Hibernate: 
+    select
+        coalesce(sum(l1_0.quantite), 0) 
+    from
+        ligne l1_0 
+    join
+        commande c1_0 
+            on c1_0.numero=l1_0.commande_numero 
+    where
+        c1_0.dispensaire_code=? 
+        and c1_0.envoyeele is not null
+Hibernate: 
+    insert 
+    into
+        commande
+        (adresse, code_postal, pays, region, ville, destinataire, dispensaire_code, envoyeele, port, remise, saisiele, numero) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, default)
+2026-01-30T15:08:38.866+01:00  INFO 12932 --- [           main] pharmacie.service.CommandeService        : Service : Ajout d'une ligne commande 99999 / med 93 qty 5
+Hibernate: 
+    select
+        c1_0.numero,
+        c1_0.adresse,
+        c1_0.code_postal,
+        c1_0.pays,
+        c1_0.region,
+        c1_0.ville,
+        c1_0.destinataire,
+        c1_0.dispensaire_code,
+        d1_0.code,
+        d1_0.adresse,
+        d1_0.code_postal,
+        d1_0.pays,
+        d1_0.region,
+        d1_0.ville,
+        d1_0.contact,
+        d1_0.fax,
+        d1_0.fonction,
+        d1_0.nom,
+        d1_0.telephone,
+        c1_0.envoyeele,
+        c1_0.port,
+        c1_0.remise,
+        c1_0.saisiele 
+    from
+        commande c1_0 
+    join
+        dispensaire d1_0 
+            on d1_0.code=c1_0.dispensaire_code 
+    where
+        c1_0.numero=?
+Hibernate: 
+    select
+        l1_0.id,
+        l1_0.commande_numero,
+        l1_0.medicament_reference,
+        l1_0.quantite 
+    from
+        ligne l1_0 
+    join
+        commande c1_0 
+            on c1_0.numero=l1_0.commande_numero 
+    where
+        c1_0.numero=?
+Hibernate: 
+    select
+        c1_0.numero,
+        c1_0.adresse,
+        c1_0.code_postal,
+        c1_0.pays,
+        c1_0.region,
+        c1_0.ville,
+        c1_0.destinataire,
+        c1_0.dispensaire_code,
+        d1_0.code,
+        d1_0.adresse,
+        d1_0.code_postal,
+        d1_0.pays,
+        d1_0.region,
+        d1_0.ville,
+        d1_0.contact,
+        d1_0.fax,
+        d1_0.fonction,
+        d1_0.nom,
+        d1_0.telephone,
+        c1_0.envoyeele,
+        c1_0.port,
+        c1_0.remise,
+        c1_0.saisiele 
+    from
+        commande c1_0 
+    join
+        dispensaire d1_0 
+            on d1_0.code=c1_0.dispensaire_code 
+    where
+        c1_0.numero=?
+Hibernate: 
+    select
+        m1_0.reference,
+        m1_0.categorie_code,
+        c1_0.code,
+        c1_0.description,
+        c1_0.libelle,
+        m1_0.imageurl,
+        m1_0.indisponible,
+        m1_0.niveau_de_reappro,
+        m1_0.nom,
+        m1_0.prix_unitaire,
+        m1_0.quantite_par_unite,
+        m1_0.unites_commandees,
+        m1_0.unites_en_stock 
+    from
+        medicament m1_0 
+    join
+        categorie c1_0 
+            on c1_0.code=m1_0.categorie_code 
+    where
+        m1_0.reference=?
+Hibernate: 
+    select
+        m1_0.reference,
+        m1_0.categorie_code,
+        c1_0.code,
+        c1_0.description,
+        c1_0.libelle,
+        m1_0.imageurl,
+        m1_0.indisponible,
+        m1_0.niveau_de_reappro,
+        m1_0.nom,
+        m1_0.prix_unitaire,
+        m1_0.quantite_par_unite,
+        m1_0.unites_commandees,
+        m1_0.unites_en_stock 
+    from
+        medicament m1_0 
+    join
+        categorie c1_0 
+            on c1_0.code=m1_0.categorie_code 
+    where
+        m1_0.reference=?
+2026-01-30T15:08:38.887+01:00  INFO 12932 --- [           main] pharmacie.service.CommandeService        : Service : Suppression de la ligne 1
+Hibernate: 
+    select
+        l1_0.id,
+        l1_0.commande_numero,
+        c1_0.numero,
+        c1_0.adresse,
+        c1_0.code_postal,
+        c1_0.pays,
+        c1_0.region,
+        c1_0.ville,
+        c1_0.destinataire,
+        c1_0.dispensaire_code,
+        d1_0.code,
+        d1_0.adresse,
+        d1_0.code_postal,
+        d1_0.pays,
+        d1_0.region,
+        d1_0.ville,
+        d1_0.contact,
+        d1_0.fax,
+        d1_0.fonction,
+        d1_0.nom,
+        d1_0.telephone,
+        c1_0.envoyeele,
+        c1_0.port,
+        c1_0.remise,
+        c1_0.saisiele,
+        l1_0.medicament_reference,
+        m1_0.reference,
+        m1_0.categorie_code,
+        c2_0.code,
+        c2_0.description,
+        c2_0.libelle,
+        m1_0.imageurl,
+        m1_0.indisponible,
+        m1_0.niveau_de_reappro,
+        m1_0.nom,
+        m1_0.prix_unitaire,
+        m1_0.quantite_par_unite,
+        m1_0.unites_commandees,
+        m1_0.unites_en_stock,
+        l1_0.quantite 
+    from
+        ligne l1_0 
+    join
+        commande c1_0 
+            on c1_0.numero=l1_0.commande_numero 
+    join
+        dispensaire d1_0 
+            on d1_0.code=c1_0.dispensaire_code 
+    join
+        medicament m1_0 
+            on m1_0.reference=l1_0.medicament_reference 
+    join
+        categorie c2_0 
+            on c2_0.code=m1_0.categorie_code 
+    where
+        l1_0.id=?
+2026-01-30T15:08:38.900+01:00  INFO 12932 --- [           main] pharmacie.service.CommandeService        : Service : Enregistrement d'expédition pour la commande 99999
+Hibernate: 
+    select
+        c1_0.numero,
+        c1_0.adresse,
+        c1_0.code_postal,
+        c1_0.pays,
+        c1_0.region,
+        c1_0.ville,
+        c1_0.destinataire,
+        c1_0.dispensaire_code,
+        d1_0.code,
+        d1_0.adresse,
+        d1_0.code_postal,
+        d1_0.pays,
+        d1_0.region,
+        d1_0.ville,
+        d1_0.contact,
+        d1_0.fax,
+        d1_0.fonction,
+        d1_0.nom,
+        d1_0.telephone,
+        c1_0.envoyeele,
+        c1_0.port,
+        c1_0.remise,
+        c1_0.saisiele 
+    from
+        commande c1_0 
+    join
+        dispensaire d1_0 
+            on d1_0.code=c1_0.dispensaire_code 
+    where
+        c1_0.numero=?
+[ERROR] Tests run: 13, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 13.55 s <<< FAILURE! -- in pharmacie.service.CreationCommandeTest
+[ERROR] pharmacie.service.CreationCommandeTest.testAjouterLigneAdditionneQuantitesSiLigneExiste -- Time elapsed: 0.056 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Les unités commandées doivent être 8 (5+3) ==> expected: <8> but was: <18>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at pharmacie.service.CreationCommandeTest.testAjouterLigneAdditionneQuantitesSiLigneExiste(CreationCommandeTest.java:118)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+[ERROR] pharmacie.service.CreationCommandeTest.testEnregistreExpeditionDecrementerStock -- Time elapsed: 0.063 s <<< ERROR!
+java.lang.IllegalStateException: warning : la commande a ete deja envoyeer
+	at pharmacie.service.CommandeService.enregistreExpedition(CommandeService.java:192)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:174)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at pharmacie.service.CommandeService$$SpringCGLIB$$0.enregistreExpedition(<generated>)
+	at pharmacie.service.CreationCommandeTest.testEnregistreExpeditionDecrementerStock(CreationCommandeTest.java:184)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   CreationCommandeTest.testAjouterLigneAdditionneQuantitesSiLigneExiste:118 Les unités commandées doivent être 8 (5+3) ==> expected: <8> but was: <18>
+[ERROR] Errors: 
+[ERROR]   CreationCommandeTest.testEnregistreExpeditionDecrementerStock:184 » IllegalState warning : la commande a ete deja envoyeer
+[INFO] 
+[ERROR] Tests run: 13, Failures: 1, Errors: 1, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  19.950 s
+[INFO] Finished at: 2026-01-30T15:08:39+01:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.5.3:test (default-test) on project pharmacie-spring-jpa: There are test failures.
+[ERROR] 
+[ERROR] See C:\Users\LEGION\pharmacie_service_metier\target\surefire-reports for the individual test results.
+[ERROR] See dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

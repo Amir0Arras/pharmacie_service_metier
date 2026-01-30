@@ -100,8 +100,40 @@ public class CommandeService {
      */
     @Transactional
     public Ligne ajouterLigne(int commandeNum, int medicamentRef, @Positive int quantite) {
-        // TODO : implémenter la méthode
-        throw new UnsupportedOperationException("Not implemented yet");
+        log.info("Service : Ajout d'une ligne commande {} / med {} qty {}", commandeNum, medicamentRef, quantite);
+        var commande = commandeDao.findById(commandeNum).orElseThrow();
+        if (commande.getEnvoyeele() != null) {
+            throw new IllegalStateException("La commande a déjà été envoyée");
+        }
+        var medicament = medicamentDao.findById(medicamentRef).orElseThrow();
+        if (medicament.isIndisponible()) {
+            throw new IllegalStateException("Médicament indisponible");
+        }
+        // On vérifie qu'il reste suffisamment d'unités en stock si on prend en compte
+        // les unités déjà réservées (unitesCommandees)
+        if (medicament.getUnitesEnStock() < medicament.getUnitesCommandees() + quantite) {
+            throw new IllegalStateException("Pas assez de stock pour ce médicament");
+        }
+
+        // Si une ligne existe déjà pour cette commande et ce médicament, on additionne
+        var opt = ligneDao.findByCommandeAndMedicament(commande, medicament);
+        Ligne ligne;
+        if (opt.isPresent()) {
+            ligne = opt.get();
+            ligne.setQuantite(ligne.getQuantite() + quantite);
+            ligneDao.save(ligne);
+        } else {
+            ligne = new Ligne(commande, medicament, quantite);
+            ligneDao.save(ligne);
+            // Ajout automatique à la liste de la commande gérée par la relation JPA
+            commande.getLignes().add(ligne);
+        }
+
+        // On incrémente le compteur d'unités commandées pour le médicament
+        medicament.setUnitesCommandees(medicament.getUnitesCommandees() + quantite);
+        medicamentDao.save(medicament);
+
+        return ligne;
     }
 
     /**
@@ -118,8 +150,23 @@ public class CommandeService {
      */
     @Transactional
     public void supprimerLigne(int id) {
-        // TODO : implémenter la méthode
-        throw new UnsupportedOperationException("Not implemented yet");
+        log.info("Service : Suppression de la ligne {}", id);
+        var ligne = ligneDao.findById(id).orElseThrow();
+        var commande = ligne.getCommande();
+        if (commande.getEnvoyeele() != null) {
+            throw new IllegalStateException("La commande a déjà été envoyée");
+        }
+        var medicament = ligne.getMedicament();
+        // Décrémente le nombre d'unités commandées
+        var nouvelleCommandee = medicament.getUnitesCommandees() - ligne.getQuantite();
+        if (nouvelleCommandee < 0) {
+            nouvelleCommandee = 0; // sécurité
+        }
+        medicament.setUnitesCommandees(nouvelleCommandee);
+        medicamentDao.save(medicament);
+
+        // suppression de la ligne
+        ligneDao.delete(ligne);
     }
 
     /**
@@ -139,8 +186,27 @@ public class CommandeService {
      */
     @Transactional
     public Commande enregistreExpedition(int commandeNum) {
-        // TODO : implémenter la méthode
-        throw new UnsupportedOperationException("Not implemented yet");
+        log.info("Service : Enregistrement d'expédition pour la commande {}", commandeNum);
+        var commande = commandeDao.findById(commandeNum).orElseThrow();
+        if (commande.getEnvoyeele() != null) {
+            throw new IllegalStateException("warning : la commande a ete deja envoyeer");
+        }
+
+        // Pour chaque ligne, on décrémente le stock et les unités commandées
+        for (var ligne : commande.getLignes()) {
+            var med = ligne.getMedicament();
+            int q = ligne.getQuantite();
+            if (med.getUnitesEnStock() < q) {
+                throw new IllegalStateException("le stock n'est pas suffisant pour le médicament " + med.getReference());
+            }
+            med.setUnitesEnStock(med.getUnitesEnStock() - q);
+            med.setUnitesCommandees(Math.max(0, med.getUnitesCommandees() - q));
+            medicamentDao.save(med);
+        }
+
+        commande.setEnvoyeele(LocalDate.now());
+        commandeDao.save(commande);
+        return commande;
     }
 
     /**

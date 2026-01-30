@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>4ae2f45e-ea64-4a88-9f6a-b1f84564068d.TABLE:PHARMACIE.PUBLIC.CATEGORIE</OriginalElement>
+  <nodes>
+    <node x="-217.75260669094627" y="312.7709661988698">4ae2f45e-ea64-4a88-9f6a-b1f84564068d.TABLE:PHARMACIE.PUBLIC.COMMANDE</node>
+    <node x="-570.4652053403893" y="616.7281098651467">4ae2f45e-ea64-4a88-9f6a-b1f84564068d.TABLE:PHARMACIE.PUBLIC.LIGNE</node>
+    <node x="-224.88061990243438" y="-56.977696234990844">4ae2f45e-ea64-4a88-9f6a-b1f84564068d.TABLE:PHARMACIE.PUBLIC.DISPENSAIRE</node>
+    <node x="-848.4753862925235" y="-19.069476693104974">4ae2f45e-ea64-4a88-9f6a-b1f84564068d.TABLE:PHARMACIE.PUBLIC.CATEGORIE</node>
+    <node x="-854.3973725010112" y="214.8624380659819">4ae2f45e-ea64-4a88-9f6a-b1f84564068d.TABLE:PHARMACIE.PUBLIC.MEDICAMENT</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="4ae2f45e-ea64-4a88-9f6a-b1f84564068d.TABLE:PHARMACIE.PUBLIC.COMMANDE" target="4ae2f45e-ea64-4a88-9f6a-b1f84564068d.TABLE:PHARMACIE.PUBLIC.DISPENSAIRE" relationship="REFERENCES">
+      <point x="-20.62801321148811" y="-164.0" />
+      <point x="0.0" y="152.0" />
+    </edge>
+    <edge source="4ae2f45e-ea64-4a88-9f6a-b1f84564068d.TABLE:PHARMACIE.PUBLIC.LIGNE" target="4ae2f45e-ea64-4a88-9f6a-b1f84564068d.TABLE:PHARMACIE.PUBLIC.MEDICAMENT" relationship="REFERENCES">
+      <point x="-127.0" y="0.0" />
+      <point x="-691.8973725010112" y="684.7281098651467" />
+      <point x="0.0" y="152.0" />
+    </edge>
+    <edge source="4ae2f45e-ea64-4a88-9f6a-b1f84564068d.TABLE:PHARMACIE.PUBLIC.MEDICAMENT" target="4ae2f45e-ea64-4a88-9f6a-b1f84564068d.TABLE:PHARMACIE.PUBLIC.CATEGORIE" relationship="REFERENCES">
+      <point x="33.42198620848774" y="-152.0" />
+      <point x="-658.4753862925235" y="354.39648068643845" />
+      <point x="-715.4753862925235" y="354.39648068643845" />
+      <point x="0.0" y="56.0" />
+    </edge>
+    <edge source="4ae2f45e-ea64-4a88-9f6a-b1f84564068d.TABLE:PHARMACIE.PUBLIC.LIGNE" target="4ae2f45e-ea64-4a88-9f6a-b1f84564068d.TABLE:PHARMACIE.PUBLIC.COMMANDE" relationship="REFERENCES">
+      <point x="26.21259864944301" y="-68.0" />
+      <point x="-417.25260669094627" y="683.7495380320083" />
+      <point x="-73.25260669094627" y="683.7495380320083" />
+      <point x="0.0" y="164.00000000000003" />
+    </edge>
+  </edges>
+  <settings layout="Orthogonal Groups" zoom="1.0" showDependencies="false" x="-277.5" y="338.5" />
+  <SelectedNodes>
+    <node>4ae2f45e-ea64-4a88-9f6a-b1f84564068d.TABLE:PHARMACIE.PUBLIC.DISPENSAIRE</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Comments</Category>
+    <Category>Key columns</Category>
+  </Categories>
+</Diagram>
+

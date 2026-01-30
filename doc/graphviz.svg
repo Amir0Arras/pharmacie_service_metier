@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="708pt" height="693pt" viewBox="0.00 0.00 708.00 693.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 688.6)">
+<title>CATEGORIE</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-688.6 704.42,-688.6 704.42,4 -4,4"/>
+<!-- CATEGORIE -->
+<g id="node1" class="node">
+<title>CATEGORIE</title>
+<polygon fill="none" stroke="black" points="330.53,-67.7 330.53,-158.9 576.3,-158.9 576.3,-67.7 330.53,-67.7"/>
+<text xml:space="preserve" text-anchor="middle" x="453.41" y="-142.3" font-family="Times,serif" font-size="14.00">CATEGORIE</text>
+<polyline fill="none" stroke="black" points="330.53,-134.1 576.3,-134.1"/>
+<text xml:space="preserve" text-anchor="start" x="338.53" y="-117.5" font-family="Times,serif" font-size="14.00">DESCRIPTION : character varying(255)</text>
+<text xml:space="preserve" text-anchor="start" x="338.53" y="-100.7" font-family="Times,serif" font-size="14.00"> LIBELLE : character varying(255)</text>
+<polyline fill="none" stroke="black" points="330.53,-92.5 576.3,-92.5"/>
+<text xml:space="preserve" text-anchor="start" x="338.53" y="-75.9" font-family="Times,serif" font-size="14.00">CODE : integer</text>
+</g>
+<!-- COMMANDE -->
+<g id="node2" class="node">
+<title>COMMANDE</title>
+<polygon fill="none" stroke="black" points="0,-279.9 0,-522.3 278.83,-522.3 278.83,-279.9 0,-279.9"/>
+<text xml:space="preserve" text-anchor="middle" x="139.41" y="-505.7" font-family="Times,serif" font-size="14.00">COMMANDE</text>
+<polyline fill="none" stroke="black" points="0,-497.5 278.83,-497.5"/>
+<text xml:space="preserve" text-anchor="start" x="8" y="-480.9" font-family="Times,serif" font-size="14.00">ENVOYEELE : date</text>
+<text xml:space="preserve" text-anchor="start" x="8" y="-464.1" font-family="Times,serif" font-size="14.00"> PORT : numeric(18,2)</text>
+<text xml:space="preserve" text-anchor="start" x="8" y="-447.3" font-family="Times,serif" font-size="14.00"> REMISE : numeric(10,2)</text>
+<text xml:space="preserve" text-anchor="start" x="8" y="-430.5" font-family="Times,serif" font-size="14.00"> SAISIELE : date</text>
+<text xml:space="preserve" text-anchor="start" x="8" y="-413.7" font-family="Times,serif" font-size="14.00"> DISPENSAIRE_CODE : character varying(5)</text>
+<text xml:space="preserve" text-anchor="start" x="8" y="-396.9" font-family="Times,serif" font-size="14.00"> CODE_POSTAL : character varying(10)</text>
+<text xml:space="preserve" text-anchor="start" x="8" y="-380.1" font-family="Times,serif" font-size="14.00"> PAYS : character varying(15)</text>
+<text xml:space="preserve" text-anchor="start" x="8" y="-363.3" font-family="Times,serif" font-size="14.00"> REGION : character varying(15)</text>
+<text xml:space="preserve" text-anchor="start" x="8" y="-346.5" font-family="Times,serif" font-size="14.00"> VILLE : character varying(15)</text>
+<text xml:space="preserve" text-anchor="start" x="8" y="-329.7" font-family="Times,serif" font-size="14.00"> DESTINATAIRE : character varying(40)</text>
+<text xml:space="preserve" text-anchor="start" x="8" y="-312.9" font-family="Times,serif" font-size="14.00"> ADRESSE : character varying(60)</text>
+<polyline fill="none" stroke="black" points="0,-304.7 278.83,-304.7"/>
+<text xml:space="preserve" text-anchor="start" x="8" y="-288.1" font-family="Times,serif" font-size="14.00">NUMERO : integer</text>
+</g>
+<!-- DISPENSAIRE -->
+<g id="node3" class="node">
+<title>DISPENSAIRE</title>
+<polygon fill="none" stroke="black" points="16.53,-0.5 16.53,-226.1 262.3,-226.1 262.3,-0.5 16.53,-0.5"/>
+<text xml:space="preserve" text-anchor="middle" x="139.41" y="-209.5" font-family="Times,serif" font-size="14.00">DISPENSAIRE</text>
+<polyline fill="none" stroke="black" points="16.53,-201.3 262.3,-201.3"/>
+<text xml:space="preserve" text-anchor="start" x="24.53" y="-184.7" font-family="Times,serif" font-size="14.00">CODE_POSTAL : character varying(10)</text>
+<text xml:space="preserve" text-anchor="start" x="24.53" y="-167.9" font-family="Times,serif" font-size="14.00"> PAYS : character varying(15)</text>
+<text xml:space="preserve" text-anchor="start" x="24.53" y="-151.1" font-family="Times,serif" font-size="14.00"> REGION : character varying(15)</text>
+<text xml:space="preserve" text-anchor="start" x="24.53" y="-134.3" font-family="Times,serif" font-size="14.00"> VILLE : character varying(15)</text>
+<text xml:space="preserve" text-anchor="start" x="24.53" y="-117.5" font-family="Times,serif" font-size="14.00"> FAX : character varying(24)</text>
+<text xml:space="preserve" text-anchor="start" x="24.53" y="-100.7" font-family="Times,serif" font-size="14.00"> TELEPHONE : character varying(24)</text>
+<text xml:space="preserve" text-anchor="start" x="24.53" y="-83.9" font-family="Times,serif" font-size="14.00"> CONTACT : character varying(30)</text>
+<text xml:space="preserve" text-anchor="start" x="24.53" y="-67.1" font-family="Times,serif" font-size="14.00"> FONCTION : character varying(30)</text>
+<text xml:space="preserve" text-anchor="start" x="24.53" y="-50.3" font-family="Times,serif" font-size="14.00"> NOM : character varying(40)</text>
+<text xml:space="preserve" text-anchor="start" x="24.53" y="-33.5" font-family="Times,serif" font-size="14.00"> ADRESSE : character varying(60)</text>
+<polyline fill="none" stroke="black" points="16.53,-25.3 262.3,-25.3"/>
+<text xml:space="preserve" text-anchor="start" x="24.53" y="-8.7" font-family="Times,serif" font-size="14.00">CODE : character varying(5)</text>
+</g>
+<!-- COMMANDE&#45;&gt;DISPENSAIRE -->
+<g id="edge1" class="edge">
+<title>COMMANDE-&gt;DISPENSAIRE</title>
+<path fill="none" stroke="#595959" d="M139.41,-279.46C139.41,-279.46 139.41,-237.77 139.41,-237.77"/>
+<polygon fill="#595959" stroke="#595959" points="142.91,-237.77 139.41,-227.77 135.91,-237.77 142.91,-237.77"/>
+<text xml:space="preserve" text-anchor="middle" x="227.7" y="-248.8" font-family="Times,serif" font-size="14.00">DISPENSAIRE_CODE:CODE</text>
+</g>
+<!-- LIGNE -->
+<g id="node4" class="node">
+<title>LIGNE</title>
+<polygon fill="none" stroke="black" points="170.78,-576.1 170.78,-684.1 422.04,-684.1 422.04,-576.1 170.78,-576.1"/>
+<text xml:space="preserve" text-anchor="middle" x="296.41" y="-667.5" font-family="Times,serif" font-size="14.00">LIGNE</text>
+<polyline fill="none" stroke="black" points="170.78,-659.3 422.04,-659.3"/>
+<text xml:space="preserve" text-anchor="start" x="178.78" y="-642.7" font-family="Times,serif" font-size="14.00">COMMANDE_NUMERO : integer</text>
+<text xml:space="preserve" text-anchor="start" x="178.78" y="-625.9" font-family="Times,serif" font-size="14.00"> MEDICAMENT_REFERENCE : integer</text>
+<text xml:space="preserve" text-anchor="start" x="178.78" y="-609.1" font-family="Times,serif" font-size="14.00"> QUANTITE : integer</text>
+<polyline fill="none" stroke="black" points="170.78,-600.9 422.04,-600.9"/>
+<text xml:space="preserve" text-anchor="start" x="178.78" y="-584.3" font-family="Times,serif" font-size="14.00">ID : integer</text>
+</g>
+<!-- LIGNE&#45;&gt;COMMANDE -->
+<g id="edge2" class="edge">
+<title>LIGNE-&gt;COMMANDE</title>
+<path fill="none" stroke="#595959" d="M224.81,-575.83C224.81,-575.83 224.81,-534.22 224.81,-534.22"/>
+<polygon fill="#595959" stroke="#595959" points="228.31,-534.22 224.81,-524.22 221.31,-534.22 228.31,-534.22"/>
+<text xml:space="preserve" text-anchor="middle" x="285.14" y="-545" font-family="Times,serif" font-size="14.00">COMMANDE_NUMERO:NUMERO</text>
+</g>
+<!-- MEDICAMENT -->
+<g id="node5" class="node">
+<title>MEDICAMENT</title>
+<polygon fill="none" stroke="black" points="297.29,-288.3 297.29,-513.9 609.54,-513.9 609.54,-288.3 297.29,-288.3"/>
+<text xml:space="preserve" text-anchor="middle" x="453.41" y="-497.3" font-family="Times,serif" font-size="14.00">MEDICAMENT</text>
+<polyline fill="none" stroke="black" points="297.29,-489.1 609.54,-489.1"/>
+<text xml:space="preserve" text-anchor="start" x="305.29" y="-472.5" font-family="Times,serif" font-size="14.00">CATEGORIE_CODE : integer</text>
+<text xml:space="preserve" text-anchor="start" x="305.29" y="-455.7" font-family="Times,serif" font-size="14.00"> FOURNISSEUR : integer</text>
+<text xml:space="preserve" text-anchor="start" x="305.29" y="-438.9" font-family="Times,serif" font-size="14.00"> INDISPONIBLE : boolean</text>
+<text xml:space="preserve" text-anchor="start" x="305.29" y="-422.1" font-family="Times,serif" font-size="14.00"> NIVEAU_DE_REAPPRO : integer</text>
+<text xml:space="preserve" text-anchor="start" x="305.29" y="-405.3" font-family="Times,serif" font-size="14.00"> PRIX_UNITAIRE : numeric(38,2)</text>
+<text xml:space="preserve" text-anchor="start" x="305.29" y="-388.5" font-family="Times,serif" font-size="14.00"> UNITES_COMMANDEES : integer</text>
+<text xml:space="preserve" text-anchor="start" x="305.29" y="-371.7" font-family="Times,serif" font-size="14.00"> UNITES_EN_STOCK : integer</text>
+<text xml:space="preserve" text-anchor="start" x="305.29" y="-354.9" font-family="Times,serif" font-size="14.00"> IMAGEURL : character varying(500)</text>
+<text xml:space="preserve" text-anchor="start" x="305.29" y="-338.1" font-family="Times,serif" font-size="14.00"> NOM : character varying(255)</text>
+<text xml:space="preserve" text-anchor="start" x="305.29" y="-321.3" font-family="Times,serif" font-size="14.00"> QUANTITE_PAR_UNITE : character varying(255)</text>
+<polyline fill="none" stroke="black" points="297.29,-313.1 609.54,-313.1"/>
+<text xml:space="preserve" text-anchor="start" x="305.29" y="-296.5" font-family="Times,serif" font-size="14.00">REFERENCE : integer</text>
+</g>
+<!-- LIGNE&#45;&gt;MEDICAMENT -->
+<g id="edge3" class="edge">
+<title>LIGNE-&gt;MEDICAMENT</title>
+<path fill="none" stroke="#595959" d="M359.67,-575.83C359.67,-575.83 359.67,-525.51 359.67,-525.51"/>
+<polygon fill="#595959" stroke="#595959" points="363.17,-525.51 359.67,-515.51 356.17,-525.51 363.17,-525.51"/>
+<text xml:space="preserve" text-anchor="middle" x="567.42" y="-545" font-family="Times,serif" font-size="14.00">MEDICAMENT_REFERENCE:REFERENCE</text>
+</g>
+<!-- MEDICAMENT&#45;&gt;CATEGORIE -->
+<g id="edge4" class="edge">
+<title>MEDICAMENT-&gt;CATEGORIE</title>
+<path fill="none" stroke="#595959" d="M453.41,-288.18C453.41,-288.18 453.41,-170.63 453.41,-170.63"/>
+<polygon fill="#595959" stroke="#595959" points="456.91,-170.63 453.41,-160.63 449.91,-170.63 456.91,-170.63"/>
+<text xml:space="preserve" text-anchor="middle" x="536.63" y="-248.8" font-family="Times,serif" font-size="14.00">CATEGORIE_CODE:CODE</text>
+</g>
+</g>
+</svg>

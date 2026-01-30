@@ -1,0 +1,63 @@
+@startuml
+
+!theme plain
+top to bottom direction
+skinparam linetype ortho
+
+class CATEGORIE {
+   DESCRIPTION: character varying(255)
+   LIBELLE: character varying(255)
+   CODE: integer
+}
+class COMMANDE {
+   ENVOYEELE: date
+   PORT: numeric(18,2)
+   REMISE: numeric(10,2)
+   SAISIELE: date
+   DISPENSAIRE_CODE: character varying(5)
+   CODE_POSTAL: character varying(10)
+   PAYS: character varying(15)
+   REGION: character varying(15)
+   VILLE: character varying(15)
+   DESTINATAIRE: character varying(40)
+   ADRESSE: character varying(60)
+   NUMERO: integer
+}
+class DISPENSAIRE {
+   CODE_POSTAL: character varying(10)
+   PAYS: character varying(15)
+   REGION: character varying(15)
+   VILLE: character varying(15)
+   FAX: character varying(24)
+   TELEPHONE: character varying(24)
+   CONTACT: character varying(30)
+   FONCTION: character varying(30)
+   NOM: character varying(40)
+   ADRESSE: character varying(60)
+   CODE: character varying(5)
+}
+class LIGNE {
+   COMMANDE_NUMERO: integer
+   MEDICAMENT_REFERENCE: integer
+   QUANTITE: integer
+   ID: integer
+}
+class MEDICAMENT {
+   CATEGORIE_CODE: integer
+   FOURNISSEUR: integer
+   INDISPONIBLE: boolean
+   NIVEAU_DE_REAPPRO: integer
+   PRIX_UNITAIRE: numeric(38,2)
+   UNITES_COMMANDEES: integer
+   UNITES_EN_STOCK: integer
+   IMAGEURL: character varying(500)
+   NOM: character varying(255)
+   QUANTITE_PAR_UNITE: character varying(255)
+   REFERENCE: integer
+}
+
+COMMANDE     -[#595959,plain]-^  DISPENSAIRE : "DISPENSAIRE_CODE:CODE"
+LIGNE        -[#595959,plain]-^  COMMANDE    : "COMMANDE_NUMERO:NUMERO"
+LIGNE        -[#595959,plain]-^  MEDICAMENT  : "MEDICAMENT_REFERENCE:REFERENCE"
+MEDICAMENT   -[#595959,plain]-^  CATEGORIE   : "CATEGORIE_CODE:CODE"
+@enduml

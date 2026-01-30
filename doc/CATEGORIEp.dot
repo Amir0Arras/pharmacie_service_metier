@@ -1,0 +1,20 @@
+digraph "CATEGORIE" {
+
+splines  = ortho;
+fontname = "Inconsolata";
+
+node [colorscheme = ylgnbu4];
+edge [colorscheme = dark28, dir = both];
+
+CATEGORIE   [shape = record, pos = "-11.784,11.515!"  , label = "{ CATEGORIE |  DESCRIPTION : character varying(255)\l  LIBELLE : character varying(255)\l| CODE : integer\l }"];
+COMMANDE    [shape = record, pos = "-3.024,6.906!"    , label = "{ COMMANDE |  ENVOYEELE : date\l  PORT : numeric(18,2)\l  REMISE : numeric(10,2)\l  SAISIELE : date\l  DISPENSAIRE_CODE : character varying(5)\l  CODE_POSTAL : character varying(10)\l  PAYS : character varying(15)\l  REGION : character varying(15)\l  VILLE : character varying(15)\l  DESTINATAIRE : character varying(40)\l  ADRESSE : character varying(60)\l| NUMERO : integer\l }"];
+DISPENSAIRE [shape = record, pos = "-3.123,12.041!"   , label = "{ DISPENSAIRE |  CODE_POSTAL : character varying(10)\l  PAYS : character varying(15)\l  REGION : character varying(15)\l  VILLE : character varying(15)\l  FAX : character varying(24)\l  TELEPHONE : character varying(24)\l  CONTACT : character varying(30)\l  FONCTION : character varying(30)\l  NOM : character varying(40)\l  ADRESSE : character varying(60)\l| CODE : character varying(5)\l }"];
+LIGNE       [shape = record, pos = "-7.923,2.684!"    , label = "{ LIGNE |  COMMANDE_NUMERO : integer\l  MEDICAMENT_REFERENCE : integer\l  QUANTITE : integer\l| ID : integer\l }"];
+MEDICAMENT  [shape = record, pos = "-11.867,8.266!"   , label = "{ MEDICAMENT |  CATEGORIE_CODE : integer\l  FOURNISSEUR : integer\l  INDISPONIBLE : boolean\l  NIVEAU_DE_REAPPRO : integer\l  PRIX_UNITAIRE : numeric(38,2)\l  UNITES_COMMANDEES : integer\l  UNITES_EN_STOCK : integer\l  IMAGEURL : character varying(500)\l  NOM : character varying(255)\l  QUANTITE_PAR_UNITE : character varying(255)\l| REFERENCE : integer\l }"];
+
+COMMANDE    -> DISPENSAIRE [color = "#595959", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "DISPENSAIRE_CODE:CODE", headlabel = ""];
+LIGNE       -> COMMANDE    [color = "#595959", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "COMMANDE_NUMERO:NUMERO", headlabel = ""];
+LIGNE       -> MEDICAMENT  [color = "#595959", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "MEDICAMENT_REFERENCE:REFERENCE", headlabel = ""];
+MEDICAMENT  -> CATEGORIE   [color = "#595959", style = solid , arrowtail = none    , arrowhead = normal  , taillabel = "", label = "CATEGORIE_CODE:CODE", headlabel = ""];
+
+}

@@ -1,0 +1,66 @@
+@startuml
+
+package "pharmacie.entity" {
+
+  class Categorie {
+    + Long id <<id>>
+    + String libelle
+    + String description
+  }
+
+  class Medicament {
+   + Long reference <<id>>
+     + String nom
+     + BigDecimal prix
+     + Integer unitesEnStock
+     + Integer unitesCommandees
+     + String urlImage
+     + Boolean indisponible
+  }
+
+  class Dispensaire {
+     + String code <<id>>
+     + String nom
+     + String contact
+     + String fonction
+     + String telephone
+     + String fax
+     + AdressePostale adresse
+  }
+
+  class AdressePostale {
+    + String rue
+    + String codePostal
+    + String ville
+  }
+
+  class Commande {
+    + Integer numero <<id>>
+    + LocalDate saisiele
+    + LocalDate envoyeele
+    + BigDecimal port
+    + String destinataire
+    + AdressePostale adresseLivraison
+    + BigDecimal remise
+   }
+
+  class Ligne {
+    + Long id <<id>>
+    + Integer quantite
+  }
+
+  ' Relations
+  Categorie "1" -- "0..*" Medicament : appartient à <
+
+  Dispensaire "1" -- "0..*" Commande : passe >
+
+  Dispensaire "1" *-- "1" AdressePostale : est localisé à >
+
+  Commande "1" *-- "1" AdressePostale : livraison à >
+
+  Commande "1" *-- "0..*" Ligne : composée de >
+
+    Ligne "*" -- "1" Medicament : concerne >
+}
+
+@enduml

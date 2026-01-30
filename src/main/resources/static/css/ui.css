@@ -1,0 +1,216 @@
+/* src/main/resources/static/css/ui.css */
+
+/* Shared “app page” layout + components.
+   Scoped with .app-page to avoid breaking older demo pages using css/style.css. */
+
+:root {
+  --app-bg: #f5f5f5;
+  --card-bg: #ffffff;
+  --text: #2c3e50;
+  --muted: #7f8c8d;
+
+  --primary: #3498db;
+  --primary-hover: #2980b9;
+
+  --success-bg: #d4edda;
+  --success-border: #c3e6cb;
+  --success-text: #155724;
+
+  --error-bg: #f8d7da;
+  --error-border: #f5c6cb;
+  --error-text: #721c24;
+}
+
+body.app-page {
+  font-family: Arial, sans-serif;
+  background: var(--app-bg);
+  margin: 0;
+  padding: 20px;
+}
+
+body.app-page.app-page--narrow {
+  /* keeps things readable on large screens */
+}
+
+.app-container {
+  max-width: 800px;
+  margin: 50px auto;
+  background: var(--card-bg);
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.app-container.app-container--wide {
+  max-width: 1000px;
+}
+
+.app-back-link {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.app-back-link:hover {
+  text-decoration: underline;
+}
+
+.app-title {
+  color: var(--text);
+  margin: 0 0 30px;
+  text-align: center;
+}
+
+.app-subtitle {
+  text-align: center;
+  color: var(--muted);
+  margin: -20px 0 30px;
+}
+
+.app-form-group {
+  margin-bottom: 20px;
+}
+
+.app-page label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #34495e;
+}
+
+.app-page input[type="number"],
+.app-page input[type="file"],
+.app-page input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.app-page input:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+.app-page button {
+  background-color: var(--primary);
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.app-page button:hover {
+  background-color: var(--primary-hover);
+}
+
+.app-page button:disabled {
+  background-color: #95a5a6;
+  cursor: not-allowed;
+}
+
+.app-message {
+  padding: 15px;
+  border-radius: 4px;
+  margin-top: 20px;
+  display: none;
+}
+
+.app-message.show {
+  display: block;
+}
+
+.app-message.success {
+  background-color: var(--success-bg);
+  border: 1px solid var(--success-border);
+  color: var(--success-text);
+}
+
+.app-message.error {
+  background-color: var(--error-bg);
+  border: 1px solid var(--error-border);
+  color: var(--error-text);
+}
+
+.app-panel {
+  background-color: #e8f4f8;
+  padding: 15px;
+  border-radius: 4px;
+  margin-top: 20px;
+  display: none;
+}
+
+.app-panel.show {
+  display: block;
+}
+
+.app-panel h3,
+.app-panel h4 {
+  margin-top: 0;
+  color: var(--text);
+}
+
+.app-file-info {
+  margin-top: 10px;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.app-preview-image {
+  max-width: 300px;
+  max-height: 300px;
+  margin-top: 15px;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.app-loading {
+  display: none;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.app-loading.show {
+  display: block;
+}
+
+.app-spinner {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid var(--primary);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: app-spin 1s linear infinite;
+  margin: 0 auto;
+}
+
+@keyframes app-spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Optional “section card” (useful for test pages) */
+.app-card {
+  background: #f8f9fa;
+  border-left: 4px solid var(--primary);
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+.app-result {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #ecf0f1;
+  border-radius: 4px;
+  white-space: pre-wrap;
+  font-family: monospace;
+  font-size: 12px;
+}
